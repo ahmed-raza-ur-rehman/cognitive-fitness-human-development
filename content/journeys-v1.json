@@ -1,0 +1,448 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "1.0.0",
+  "reviewedAt": "2026-10-04",
+  "title": "Guided learning paths",
+  "intro": "A path is a short, ordered route: understand an idea, experience a task, inspect what the result can support, then practise or apply it if it is useful. Every step is optional, untimed, and reversible.",
+  "outcomeNotice": "Finishing a path means you looked at one idea from several angles. It is not a course grade, a cognitive assessment, or evidence that your ability changed.",
+  "boundaryNotice": "Educational only. Nothing here diagnoses, treats, or predicts health or everyday performance. Skip or stop at any step; persistent, sudden, or worrying changes deserve qualified care rather than a practice task.",
+  "journeys": [
+    {
+      "id": "journey.start-here",
+      "slug": "start-here",
+      "title": "First ten minutes here",
+      "question": "What is this place and what can I actually do?",
+      "audience": "a first visit",
+      "summary": "A short orientation that shows the three moves this space is built around: understand, try, and read the limits. It asks nothing about you and saves nothing.",
+      "minutes": 10,
+      "outcome": "You can name what each area is for, complete one task, and say what its result does not mean.",
+      "boundary": "This path is orientation only. It does not measure ability and does not set a goal or target for you.",
+      "steps": [
+        {
+          "id": "start-here.map",
+          "kind": "understand",
+          "title": "See how the areas connect",
+          "purpose": "The site is one system: concepts explain, the lab demonstrates, training practises, evidence bounds, and the atlas widens context.",
+          "action": "Read the five-area explanation, then pick whichever name matches why you came.",
+          "href": "/explore",
+          "linkLabel": "Open the concept map",
+          "takeaway": "Each area has one job, and you can move between them without finishing anything.",
+          "caution": "Labeled links between ideas are relationships, not causes or brain pathways."
+        },
+        {
+          "id": "start-here.try",
+          "kind": "experience",
+          "title": "Do one task once",
+          "purpose": "A result is easier to interpret when you have produced one yourself.",
+          "action": "Work through the recall demonstration at your own pace. You decide when to hide the list.",
+          "href": "/lab",
+          "linkLabel": "Start the recall demonstration",
+          "takeaway": "One round produces one countable observation about one task.",
+          "caution": "The count describes this list only. It is not memory capacity, intelligence, or a diagnosis."
+        },
+        {
+          "id": "start-here.limits",
+          "kind": "inspect",
+          "title": "Read the limits while it is fresh",
+          "purpose": "Context is most useful before a number starts feeling like a verdict.",
+          "action": "Open one claim about retrieval practice and inspect its population, design, and stated limitation.",
+          "href": "/evidence#retrieval-evidence",
+          "linkLabel": "Inspect the retrieval evidence",
+          "takeaway": "You can see which study conditions a statement covers and which it does not.",
+          "caution": "Review-level findings in classrooms are not proof that this demonstration changes learning."
+        },
+        {
+          "id": "start-here.control",
+          "kind": "apply",
+          "title": "Set the reading conditions you want",
+          "purpose": "Comfort is a prerequisite for attention; the controls change presentation only.",
+          "action": "Open Reading options in the header and adjust text size, spacing, contrast, motion, or the reading guide.",
+          "href": "/privacy",
+          "linkLabel": "Then see how data is handled",
+          "takeaway": "Preferences stay on this device and never alter what a task reports.",
+          "caution": "Settings are stored in this browser only; a shared device keeps them until cleared."
+        },
+        {
+          "id": "start-here.next",
+          "kind": "reflect",
+          "title": "Choose what to do next",
+          "purpose": "Leaving with a deliberate choice is the point of an orientation.",
+          "action": "Decide whether you want a concept, a practice routine, a whole-person area, or nothing further today.",
+          "href": "/develop",
+          "linkLabel": "Browse the development atlas",
+          "takeaway": "You have four legitimate next moves and no obligation to take any of them.",
+          "caution": "There is no streak, deadline, or penalty for stopping here."
+        }
+      ],
+      "relatedConceptIds": [],
+      "relatedPathwayIds": []
+    },
+    {
+      "id": "journey.memory-first",
+      "slug": "memory-first",
+      "title": "Why do I forget things?",
+      "question": "Why do I forget things I knew?",
+      "audience": "curious beginners",
+      "summary": "Forgetfulness is several different things. This path separates keeping, retrieving, and measuring, then lets you experience one small retrieval task and read what it can support.",
+      "minutes": 20,
+      "outcome": "You can explain one reason retrieval can fail and describe your own round without overreading it.",
+      "boundary": "Forgetting has many causes, including health conditions this space cannot assess. If forgetting is new, sudden, or interferes with daily safety, that deserves professional evaluation rather than a practice task.",
+      "steps": [
+        {
+          "id": "memory-first.explain",
+          "kind": "understand",
+          "title": "Start with what memory means here",
+          "purpose": "Ordinary language mixes keeping, recalling, and forgetting into one word.",
+          "action": "Read the memory explanation and its two reviewed claims.",
+          "href": "/explore/memory",
+          "linkLabel": "Read the memory pathway",
+          "takeaway": "A thing can be stored and still fail to come back at a given moment.",
+          "caution": "The pathway covers a few studied tasks, not your whole life memory."
+        },
+        {
+          "id": "memory-first.try",
+          "kind": "experience",
+          "title": "Experience one short recall round",
+          "purpose": "Retrieval is easier to reason about when you have just attempted it.",
+          "action": "Study a small list, hide it when ready, and write what comes back.",
+          "href": "/lab",
+          "linkLabel": "Open the recall demonstration",
+          "takeaway": "Your result is a count for one list under the conditions you chose.",
+          "caution": "No timer, no percentile, and no inference about capacity or aging."
+        },
+        {
+          "id": "memory-first.compare",
+          "kind": "understand",
+          "title": "Meet the neighbouring ideas",
+          "purpose": "Forgetting is often discussed with working memory and retrieval practice.",
+          "action": "Follow the related concepts from the memory page and note how each is defined.",
+          "href": "/explore/retrieval-practice",
+          "linkLabel": "Read retrieval practice",
+          "takeaway": "Related ideas are not interchangeable; each has its own measure.",
+          "caution": "Relationship labels do not establish mechanism or causation."
+        },
+        {
+          "id": "memory-first.evidence",
+          "kind": "inspect",
+          "title": "Check what research actually found",
+          "purpose": "Retrieval practice is studied with delay tests and classroom materials, not single demos.",
+          "action": "Read the retrieval evidence section and its limitations.",
+          "href": "/evidence#retrieval-evidence",
+          "linkLabel": "Inspect retrieval evidence",
+          "takeaway": "A finding comes with the population and task it was measured on.",
+          "caution": "Reviewed benefit in a studied context is not a promise for you or for this product."
+        },
+        {
+          "id": "memory-first.practise",
+          "kind": "practice",
+          "title": "Practise one defined memory task",
+          "purpose": "Practice should have a target, not a vague 'brain workout'.",
+          "action": "Choose Sequence Recall or Grid Pattern Recall and read its rules and scoring before starting.",
+          "href": "/train#activities",
+          "linkLabel": "Choose a memory activity",
+          "takeaway": "Improvement, if any, is described for that task and item set.",
+          "caution": "Task improvement is not general memory improvement or transfer to daily life."
+        },
+        {
+          "id": "memory-first.apply",
+          "kind": "apply",
+          "title": "Take one idea off the screen",
+          "purpose": "The useful test is whether an idea changes how you study tomorrow.",
+          "action": "Use the memory and learning pathway's starter steps for one real item you need to keep.",
+          "href": "/develop#pathway-memory-learning",
+          "linkLabel": "Open the memory and learning pathway",
+          "takeaway": "You leave with a small, optional action rather than a score to defend.",
+          "caution": "Adapt or skip any step; the pathway is an educational suggestion, not a prescription."
+        }
+      ],
+      "relatedConceptIds": [
+        "concept.memory",
+        "concept.retrieval-practice",
+        "concept.working-memory"
+      ],
+      "relatedPathwayIds": [
+        "memory-learning"
+      ]
+    },
+    {
+      "id": "journey.focus-under-pressure",
+      "slug": "focus-under-pressure",
+      "title": "Why does my focus come and go?",
+      "question": "Why can't I stay focused?",
+      "audience": "students, workers, and anyone distracted",
+      "summary": "Focus is described here as a task-level behaviour rather than a personality trait. The path pairs an attention explanation with a counting task and an explicit note on what a score cannot say.",
+      "minutes": 15,
+      "outcome": "You can describe one attention task, its result, and at least two reasons a single round is weak evidence.",
+      "boundary": "Persistent attention difficulties have many causes, including conditions this space does not assess. Only a qualified professional can evaluate them.",
+      "steps": [
+        {
+          "id": "focus.explain",
+          "kind": "understand",
+          "title": "Read what attention refers to here",
+          "purpose": "'Focus' is used for selection, sustained effort, and multitasking alike.",
+          "action": "Open the attention concept and note which use each claim addresses.",
+          "href": "/explore/attention",
+          "linkLabel": "Read the attention pathway",
+          "takeaway": "The word covers several measurable things; the task names which one.",
+          "caution": "A task definition is not a clinical definition."
+        },
+        {
+          "id": "focus.try",
+          "kind": "experience",
+          "title": "Try a scanning task with no countdown",
+          "purpose": "A small search task makes selection concrete without speed pressure.",
+          "action": "Count the target letters in a grid at your own pace.",
+          "href": "/train#activities",
+          "linkLabel": "Open Target Finder practice",
+          "takeaway": "Accuracy here belongs to these five static grids.",
+          "caution": "It does not measure everyday attention, ADHD, or visual health."
+        },
+        {
+          "id": "focus.evidence",
+          "kind": "inspect",
+          "title": "See how task context changes results",
+          "purpose": "Attention findings depend heavily on the task and setting used.",
+          "action": "Read the attention and task-context evidence with its limitations.",
+          "href": "/evidence#attention-evidence",
+          "linkLabel": "Inspect attention evidence",
+          "takeaway": "You can tell a task-level observation from a general claim.",
+          "caution": "Reviewed associations are not explanations of your day."
+        },
+        {
+          "id": "focus.apply",
+          "kind": "apply",
+          "title": "Adjust one condition, not your character",
+          "purpose": "Small environment and sequencing changes are testable; self-criticism is not.",
+          "action": "Work through the attention and executive-skills pathway's starter.",
+          "href": "/develop#pathway-attention-executive",
+          "linkLabel": "Open the attention pathway steps",
+          "takeaway": "You have one concrete change to try on your own terms.",
+          "caution": "Nothing here is a productivity system or treatment."
+        },
+        {
+          "id": "focus.reflect",
+          "kind": "reflect",
+          "title": "Notice what the task could not tell you",
+          "purpose": "Naming missing context prevents over-interpretation.",
+          "action": "Write down what you would need to know before trusting this round as a pattern.",
+          "href": "/progress",
+          "linkLabel": "Review saved practice, if any",
+          "takeaway": "A pattern needs repeated, comparable rounds and stated conditions.",
+          "caution": "Saved sessions are only the ones you chose to keep on this device."
+        }
+      ],
+      "relatedConceptIds": [
+        "concept.attention",
+        "concept.working-memory"
+      ],
+      "relatedPathwayIds": [
+        "attention-executive"
+      ]
+    },
+    {
+      "id": "journey.study-that-sticks",
+      "slug": "study-that-sticks",
+      "title": "How should I actually study?",
+      "question": "How do I learn material so it stays?",
+      "audience": "students and self-learners",
+      "summary": "A learning-science route through retrieval practice, spacing, and the difference between feeling familiar and being able to recall. It links reviewed sources to a demonstration you can run in minutes.",
+      "minutes": 25,
+      "outcome": "You can describe one high-utility technique, one honest limit of the evidence, and one way to apply it to your own material.",
+      "boundary": "Study guidance is general. Courses, materials, age, disability, and language differ; adapt with your instructor, tutor, or clinician where accommodations matter.",
+      "steps": [
+        {
+          "id": "study.technique",
+          "kind": "understand",
+          "title": "Learn what retrieval practice is",
+          "purpose": "Trying to recall is different from re-reading, and the difference is the whole idea.",
+          "action": "Read the retrieval-practice pathway and its claims.",
+          "href": "/explore/retrieval-practice",
+          "linkLabel": "Read retrieval practice",
+          "takeaway": "Recall attempts can be part of learning, not just proof of it.",
+          "caution": "The reviewed effect varies with material, delay, and test conditions."
+        },
+        {
+          "id": "study.try",
+          "kind": "experience",
+          "title": "Run one recall round yourself",
+          "purpose": "Feeling fluent and being able to recall can diverge; a short round makes that noticeable.",
+          "action": "Complete the word-recall demonstration and read its result wording carefully.",
+          "href": "/lab",
+          "linkLabel": "Open the lab demonstration",
+          "takeaway": "You have one personal data point about one list.",
+          "caution": "No delayed test means no claim about long-term retention."
+        },
+        {
+          "id": "study.learning",
+          "kind": "understand",
+          "title": "Separate performance from learning",
+          "purpose": "What you can do right after practice and what survives a week are different measures.",
+          "action": "Read the learning pathway and notice where delay appears in the study designs.",
+          "href": "/explore/learning",
+          "linkLabel": "Read the learning pathway",
+          "takeaway": "A technique claim needs a follow-up test to be about learning.",
+          "caution": "This product does not administer delayed tests."
+        },
+        {
+          "id": "study.evidence",
+          "kind": "inspect",
+          "title": "Check which techniques were rated highly",
+          "purpose": "Common study habits are not equally supported.",
+          "action": "Read the practice-techniques claim with its source scope and limitations.",
+          "href": "/evidence#retrieval-evidence",
+          "linkLabel": "Inspect the evidence",
+          "takeaway": "You can see a review's rating and its boundaries together.",
+          "caution": "A review-level rating is not guaranteed for every learner or subject."
+        },
+        {
+          "id": "study.apply",
+          "kind": "apply",
+          "title": "Build the technique into one real session",
+          "purpose": "The transfer question is whether it survives contact with your actual material.",
+          "action": "Follow the memory and learning pathway's starter with something you genuinely need to know.",
+          "href": "/develop#pathway-memory-learning",
+          "linkLabel": "Open the learning pathway starter",
+          "takeaway": "One concrete session plan you can adjust or abandon.",
+          "caution": "No dose, deadline, or promised grade improvement is implied."
+        }
+      ],
+      "relatedConceptIds": [
+        "concept.retrieval-practice",
+        "concept.learning",
+        "concept.memory"
+      ],
+      "relatedPathwayIds": [
+        "memory-learning",
+        "metacognition"
+      ]
+    },
+    {
+      "id": "journey.think-twice",
+      "slug": "think-twice",
+      "title": "How do I reason more carefully?",
+      "question": "Am I reasoning well or just feeling sure?",
+      "audience": "people who want a slower thinking habit",
+      "summary": "A short route through inference from stated premises, pattern prediction, and metacognitive checking. It keeps confidence and accuracy as separate observations.",
+      "minutes": 20,
+      "outcome": "You can name the difference between a conclusion that follows from the premises and one that merely feels right.",
+      "boundary": "These tasks practise specific item sets. They do not measure reasoning ability, IQ, or judgment in real situations where information is incomplete and stakes matter.",
+      "steps": [
+        {
+          "id": "reason.practice",
+          "kind": "practice",
+          "title": "Answer from stated premises only",
+          "purpose": "The fastest way to feel the premise/conclusion gap is to be held to it.",
+          "action": "Open Logic Lab, read its rules, and complete one five-item session.",
+          "href": "/train#activities",
+          "linkLabel": "Open the activity list",
+          "takeaway": "Some conclusions follow, and some are merely possible.",
+          "caution": "Correct answers here do not indicate general reasoning skill."
+        },
+        {
+          "id": "reason.pattern",
+          "kind": "practice",
+          "title": "Predict the next item in a pattern",
+          "purpose": "Pattern tasks show how much a rule is underdetermined by a few examples.",
+          "action": "Try Pattern Predictor and read each explanation, right or wrong.",
+          "href": "/train#activities",
+          "linkLabel": "Practise pattern prediction",
+          "takeaway": "Several rules can fit the same first few items.",
+          "caution": "Feedback is item-specific, not a reasoning profile."
+        },
+        {
+          "id": "reason.boundary",
+          "kind": "inspect",
+          "title": "Read why a task score is bounded",
+          "purpose": "The boundary is the most useful part of the result.",
+          "action": "Open the activity-boundary section of the evidence page.",
+          "href": "/evidence#activity-boundary",
+          "linkLabel": "Read the activity boundary",
+          "takeaway": "Item set, difficulty, and practice effects are not controlled across sessions.",
+          "caution": "Nothing here is a validated assessment or a diagnosis."
+        },
+        {
+          "id": "reason.meta",
+          "kind": "reflect",
+          "title": "Add a confidence check to one decision",
+          "purpose": "Metacognition is checking your own evidence, not thinking harder.",
+          "action": "Use the metacognition pathway's starter on a real choice you are facing today.",
+          "href": "/develop#pathway-metacognition",
+          "linkLabel": "Open the metacognition pathway",
+          "takeaway": "One question you can ask yourself before committing.",
+          "caution": "Reflection is not a mood, personality, or mental-health assessment."
+        }
+      ],
+      "relatedConceptIds": [
+        "concept.working-memory"
+      ],
+      "relatedPathwayIds": [
+        "reasoning-decisions",
+        "metacognition"
+      ]
+    },
+    {
+      "id": "journey.sleep-as-context",
+      "slug": "sleep-as-context",
+      "title": "Does sleep really change thinking?",
+      "question": "How much does sleep matter for my mind?",
+      "audience": "anyone tempted to trade sleep for study or work",
+      "summary": "Sleep is presented as interacting context, not a score to optimise. The path reads population guidance, uses a local-only window sketch, and stops well short of sleep advice.",
+      "minutes": 15,
+      "outcome": "You can describe one studied link between sleep and memory and state why this page cannot tell you your personal sleep need.",
+      "boundary": "Not medical advice, diagnosis, or treatment, and not a sleep assessment. Concerns such as snoring, sudden sleepiness, or persistent insomnia need qualified care; the planner records nothing about you.",
+      "steps": [
+        {
+          "id": "sleep.explain",
+          "kind": "understand",
+          "title": "Read the reviewed sleep and memory statements",
+          "purpose": "Claims about sleep and memory are specific about population, design, and outcome.",
+          "action": "Open the sleep pathway and its three claims with their limitations.",
+          "href": "/explore/sleep",
+          "linkLabel": "Read the sleep pathway",
+          "takeaway": "Research describes group-level findings under named conditions.",
+          "caution": "No individual can be scored from this page."
+        },
+        {
+          "id": "sleep.sketch",
+          "kind": "experience",
+          "title": "Sketch an opportunity window",
+          "purpose": "Arithmetic makes the difference between time in bed and possible sleep concrete.",
+          "action": "Enter a wake time and a window you choose. Nothing is saved or sent.",
+          "href": "/explore/sleep",
+          "linkLabel": "Use the window sketch",
+          "takeaway": "A short window cannot contain a longer amount of actual sleep.",
+          "caution": "This is clock arithmetic, not sleep quality, need, or health."
+        },
+        {
+          "id": "sleep.evidence",
+          "kind": "inspect",
+          "title": "See the guidance as guidance",
+          "purpose": "Population recommendations vary by age and circumstance and are not prescriptions.",
+          "action": "Read the sleep evidence with its stated scope and limits.",
+          "href": "/evidence#retrieval-evidence",
+          "linkLabel": "Inspect the evidence context",
+          "takeaway": "You can tell a guideline from a personal target.",
+          "caution": "Consensus guidance does not diagnose or predict your cognition."
+        },
+        {
+          "id": "sleep.apply",
+          "kind": "apply",
+          "title": "Handle recovery as a context, not a scoreboard",
+          "purpose": "Tracking can help some people and pressure others; the atlas keeps it optional and unmeasured.",
+          "action": "Read the sleep and recovery pathway, its starter, and its care boundary.",
+          "href": "/develop#pathway-sleep-recovery",
+          "linkLabel": "Open the sleep and recovery pathway",
+          "takeaway": "One adaptable, low-burden idea to consider off-screen.",
+          "caution": "No sleep score, streak, or wake-alarm behaviour is offered here."
+        }
+      ],
+      "relatedConceptIds": [
+        "concept.sleep",
+        "concept.learning"
+      ],
+      "relatedPathwayIds": [
+        "sleep-recovery"
+      ]
+    }
+  ]
+}

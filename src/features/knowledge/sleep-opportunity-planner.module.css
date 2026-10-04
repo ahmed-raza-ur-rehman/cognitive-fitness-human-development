@@ -1,0 +1,209 @@
+.planner {
+  margin-top: 2rem;
+  border: 1px solid rgba(185, 234, 213, 0.2);
+  border-radius: var(--radius-lg);
+  padding: clamp(1.2rem, 4vw, 2rem);
+  background: linear-gradient(145deg, rgba(22, 36, 39, 0.9), rgba(17, 24, 32, 0.95));
+}
+
+.heading {
+  max-width: 780px;
+}
+
+.heading h2 {
+  margin: 0;
+  font-size: clamp(1.55rem, 3.5vw, 2.35rem);
+  font-weight: 500;
+  letter-spacing: -0.045em;
+  line-height: 1.2;
+}
+
+.heading > p:last-child {
+  margin: 0.75rem 0 0;
+  color: var(--muted);
+  line-height: 1.75;
+}
+
+.contextNote {
+  margin-top: 1.3rem;
+  border-left: 3px solid var(--amber);
+  border-radius: 0 var(--radius-md) var(--radius-md) 0;
+  padding: 0.9rem 1rem;
+  background: rgba(233, 197, 142, 0.07);
+}
+
+.contextNote strong {
+  color: #f0d5a9;
+  font-size: 0.86rem;
+}
+
+.contextNote p {
+  margin: 0.35rem 0 0;
+  color: #d0d6cf;
+  font-size: 0.84rem;
+  line-height: 1.7;
+}
+
+.form {
+  display: grid;
+  gap: 1.15rem;
+  margin-top: 1.4rem;
+}
+
+.fields {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.field {
+  display: grid;
+  align-content: start;
+  gap: 0.45rem;
+}
+
+.field label {
+  color: var(--text);
+  font-size: 0.87rem;
+  font-weight: 600;
+}
+
+.field input {
+  width: 100%;
+  min-height: 48px;
+  border: 1px solid var(--line-strong);
+  border-radius: 12px;
+  padding: 0.65rem 0.8rem;
+  background: var(--canvas-raised);
+  color: var(--text);
+  color-scheme: dark;
+  font: inherit;
+}
+
+.field input::placeholder {
+  color: #aeb9b8;
+  opacity: 1;
+}
+
+.fieldHelp {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.75rem;
+  line-height: 1.55;
+}
+
+.result {
+  border: 1px solid rgba(185, 234, 213, 0.22);
+  border-radius: 14px;
+  padding: 0.9rem 1rem;
+  background: rgba(185, 234, 213, 0.055);
+}
+
+.result strong {
+  color: var(--mint);
+  font-size: 0.86rem;
+}
+
+.result p {
+  margin: 0.25rem 0 0;
+  color: #dce4e1;
+  font-size: 0.83rem;
+  line-height: 1.7;
+}
+
+.warning {
+  border-color: rgba(233, 197, 142, 0.46);
+  background: rgba(233, 197, 142, 0.075);
+}
+
+.warning strong {
+  color: #f0d5a9;
+}
+
+.formActions {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.8rem 1.2rem;
+}
+
+.resetButton {
+  min-height: 44px;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  padding: 0.55rem 1rem;
+  background: transparent;
+  color: var(--text);
+  cursor: pointer;
+  font: inherit;
+  font-size: 0.82rem;
+  font-weight: 600;
+}
+
+.resetButton:hover {
+  background: rgba(185, 234, 213, 0.08);
+}
+
+.formActions > p {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.75rem;
+  line-height: 1.55;
+}
+
+.nextSteps {
+  margin-top: 1.5rem;
+  border-top: 1px solid var(--line);
+  padding-top: 1.2rem;
+}
+
+.nextSteps h3 {
+  margin: 0;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.nextSteps ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.45rem 1.2rem;
+  margin: 0.6rem 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nextSteps li a {
+  display: inline-flex;
+  min-height: 44px;
+  align-items: center;
+  color: var(--mint);
+  font-size: 0.82rem;
+  font-weight: 600;
+  text-decoration: underline;
+  text-decoration-color: rgba(185, 234, 213, 0.46);
+  text-underline-offset: 0.2em;
+}
+
+.nextSteps > p {
+  max-width: 720px;
+  margin: 0.35rem 0 0;
+  color: var(--muted);
+  font-size: 0.76rem;
+  line-height: 1.6;
+}
+
+@media (max-width: 640px) {
+  .fields {
+    grid-template-columns: 1fr;
+  }
+
+  .formActions {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .nextSteps ul {
+    display: grid;
+    gap: 0.15rem;
+  }
+}

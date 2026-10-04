@@ -1,0 +1,295 @@
+.panel {
+  display: grid;
+  gap: 1.4rem;
+}
+
+.miniLabel {
+  margin: 0 0 .5rem;
+  color: var(--mint);
+  font-size: .62rem;
+  font-weight: 750;
+  letter-spacing: .14em;
+  text-transform: uppercase;
+}
+
+.visuallyHidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+.overview,
+.goalBlock,
+.activitySection,
+.weekSection,
+.readSection,
+.empty {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-md);
+  padding: clamp(1.1rem, 2.2vw, 1.7rem);
+  background: linear-gradient(155deg, rgba(24, 34, 43, .92), rgba(14, 21, 28, .9));
+}
+
+.overview h2,
+.goalBlock h2,
+.activitySection h2,
+.weekSection h2,
+.readSection h2 {
+  margin: 0 0 .55rem;
+  font-size: clamp(1.18rem, 2vw, 1.6rem);
+  font-weight: 500;
+  letter-spacing: -.02em;
+  line-height: 1.22;
+}
+
+.factGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: .85rem;
+  margin: 1.1rem 0 0;
+  padding: 0;
+}
+
+.factGrid > div {
+  display: grid;
+  gap: .3rem;
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  padding: .7rem .8rem;
+  background: rgba(255, 255, 255, .02);
+}
+
+.factGrid dt {
+  color: var(--muted);
+  font-size: .68rem;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-transform: uppercase;
+}
+
+.factGrid dd {
+  margin: 0;
+  color: var(--text);
+  font-size: .95rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.overviewNote,
+.goalBlock p {
+  margin: 1rem 0 0;
+  color: #b4c0c1;
+  font-size: .9rem;
+  line-height: 1.7;
+}
+
+.goalBlock {
+  display: grid;
+  gap: 1rem;
+  border-color: rgba(185, 234, 213, .3);
+  background: linear-gradient(150deg, rgba(26, 48, 47, .85), rgba(13, 21, 26, .92));
+}
+
+.goalBoundary {
+  border-left: 2px solid rgba(233, 197, 142, .55);
+  padding-left: .85rem;
+  color: #cfd8d6;
+  font-size: .84rem;
+}
+
+.sectionHeading {
+  display: grid;
+  gap: .8rem;
+  margin-bottom: 1.2rem;
+}
+
+@media (min-width: 900px) {
+  .sectionHeading {
+    grid-template-columns: minmax(0, 1fr) minmax(0, .85fr);
+    align-items: end;
+  }
+}
+
+.sectionHeading p {
+  margin: .45rem 0 0;
+  color: var(--muted);
+  font-size: .86rem;
+  line-height: 1.65;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: .87rem;
+}
+
+.table th,
+.table td {
+  border-top: 1px solid var(--line);
+  padding: .72rem .5rem;
+  text-align: left;
+  vertical-align: middle;
+}
+
+.table thead th {
+  border-top: 0;
+  color: var(--muted);
+  font-size: .68rem;
+  font-weight: 750;
+  letter-spacing: .09em;
+  text-transform: uppercase;
+}
+
+.table tbody th {
+  display: grid;
+  gap: .18rem;
+  font-weight: 600;
+}
+
+.table tbody th small {
+  color: var(--muted);
+  font-size: .72rem;
+  font-weight: 500;
+  letter-spacing: .04em;
+  text-transform: uppercase;
+}
+
+.tableWrap {
+  overflow-x: auto;
+}
+
+.distribution {
+  display: flex;
+  min-width: 104px;
+  height: 40px;
+  align-items: flex-end;
+  gap: 3px;
+}
+
+.distBar {
+  flex: 1 1 auto;
+  min-width: 6px;
+  border-radius: 3px 3px 0 0;
+  background: linear-gradient(180deg, var(--mint), rgba(137, 203, 177, .35));
+}
+
+.weekChart {
+  display: grid;
+  gap: .6rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.weekChart li {
+  position: relative;
+  display: grid;
+  gap: .1rem;
+  border-radius: 10px;
+  padding: .6rem .75rem;
+  background: rgba(255, 255, 255, .03);
+}
+
+.weekBar {
+  position: absolute;
+  inset: 0 auto 0 0;
+  z-index: 0;
+  border-radius: 10px;
+  background: rgba(137, 203, 177, .16);
+}
+
+.weekLabel,
+.weekValue {
+  position: relative;
+  z-index: 1;
+}
+
+.weekLabel {
+  font-size: .84rem;
+  font-weight: 650;
+}
+
+.weekValue {
+  color: var(--muted);
+  font-size: .78rem;
+}
+
+.readSection {
+  display: grid;
+  gap: 1rem;
+}
+
+.readList {
+  display: grid;
+  gap: .7rem;
+  margin: 0;
+  padding-left: 1.15rem;
+  color: #b4c0c1;
+  font-size: .88rem;
+  line-height: 1.68;
+}
+
+.readList strong {
+  display: block;
+  color: var(--text);
+  font-weight: 650;
+}
+
+.readLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .55rem 1.2rem;
+}
+
+.readLinks a,
+.emptyLinks a {
+  color: var(--mint);
+  font-size: .84rem;
+  text-decoration: underline;
+  text-underline-offset: .25rem;
+}
+
+.empty {
+  display: grid;
+  gap: 1rem;
+  border-style: dashed;
+}
+
+.emptyHeading {
+  margin: 0;
+  font-size: 1.12rem;
+  font-weight: 550;
+  letter-spacing: -.01em;
+}
+
+.empty p {
+  margin: 0;
+  color: #b4c0c1;
+  font-size: .9rem;
+  line-height: 1.7;
+  max-width: 62ch;
+}
+
+.emptyLinks {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .7rem;
+}
+
+.emptyNote {
+  color: var(--muted) !important;
+  font-size: .8rem !important;
+}
+
+@media (max-width: 720px) {
+  .table {
+    font-size: .82rem;
+  }
+}

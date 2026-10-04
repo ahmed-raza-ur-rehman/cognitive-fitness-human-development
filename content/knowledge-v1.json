@@ -1,0 +1,719 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "1.2.0",
+  "title": "Memory, learning, and recovery: an expanding evidence map",
+  "language": "en",
+  "reviewedAt": "2026-10-04",
+  "concepts": [
+    {
+      "id": "concept.memory",
+      "slug": "memory",
+      "title": "Memory",
+      "summary": "This pathway looks at how information can be kept available, brought back to mind, and used in learning.",
+      "claimIds": [
+        "claim.working-memory-active",
+        "claim.retrieval-education"
+      ]
+    },
+    {
+      "id": "concept.working-memory",
+      "slug": "working-memory",
+      "title": "Working memory",
+      "summary": "Working memory refers to a few thoughts that are temporarily active while someone carries out a task.",
+      "claimIds": [
+        "claim.working-memory-active",
+        "claim.working-memory-limits"
+      ]
+    },
+    {
+      "id": "concept.attention",
+      "slug": "attention",
+      "title": "Attention",
+      "summary": "Attention is a neighboring topic: where focus is directed can influence how working memory is used, but it is not the only influence.",
+      "claimIds": [
+        "claim.attention-in-working-memory"
+      ]
+    },
+    {
+      "id": "concept.retrieval-practice",
+      "slug": "retrieval-practice",
+      "title": "Retrieval practice",
+      "summary": "Retrieval practice means trying to bring learned information to mind rather than only reviewing it.",
+      "claimIds": [
+        "claim.retrieval-education",
+        "claim.roediger-delay-contrast",
+        "claim.practice-techniques"
+      ]
+    },
+    {
+      "id": "concept.learning",
+      "slug": "learning",
+      "title": "Learning",
+      "summary": "The reviewed studies examine learning through specific educational tasks and follow-up tests; this pathway’s one-round demonstration does not measure durable learning.",
+      "claimIds": [
+        "claim.retrieval-education",
+        "claim.roediger-delay-contrast",
+        "claim.practice-techniques"
+      ]
+    },
+    {
+      "id": "concept.sleep",
+      "slug": "sleep",
+      "title": "Sleep and recovery",
+      "summary": "Sleep is one part of whole-person recovery. Research examines sleep and memory under specific conditions, while this pathway avoids personal sleep scoring or promises about everyday learning.",
+      "claimIds": [
+        "claim.sleep-duration-guideline",
+        "claim.sleep-memory-review",
+        "claim.sleep-deprivation-memory"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "id": "claim.working-memory-active",
+      "title": "Working memory in a task",
+      "wording": "Working memory refers to a few temporarily active thoughts used while a person carries out a mental task.",
+      "kind": "conceptual-description",
+      "population": "A theoretical review drawing on working-memory experiments; not a norm for an individual user.",
+      "outcome": "Description of a cognitive construct, not an intervention effect.",
+      "studyDesign": "Review article integrating theory and experimental findings.",
+      "transferLevel": "not-applicable",
+      "evidenceLabel": "Moderate support for this qualified model description.",
+      "grade": "B",
+      "sourceIds": [
+        "source.cowan-2010"
+      ],
+      "limitationIds": [
+        "limit.cowan-model-and-task"
+      ],
+      "surfacePolicy": "beginner-summary"
+    },
+    {
+      "id": "claim.working-memory-limits",
+      "title": "Capacity estimates depend on conditions",
+      "wording": "Cowan’s review discusses a central working-memory limit of roughly three to five meaningful items for young adults under specific experimental conditions. This is not a universal personal limit or a score for this activity.",
+      "kind": "review-finding",
+      "population": "Young adults in controlled research conditions discussed by the review.",
+      "outcome": "Central storage-capacity estimates; not a clinical or individual assessment.",
+      "studyDesign": "Review article summarizing experimental methods and theoretical interpretations.",
+      "transferLevel": "not-applicable",
+      "evidenceLabel": "Moderate support for the condition-specific estimate; do not generalize it to a person.",
+      "grade": "B",
+      "sourceIds": [
+        "source.cowan-2010"
+      ],
+      "limitationIds": [
+        "limit.cowan-model-and-task"
+      ],
+      "surfacePolicy": "research-detail-only"
+    },
+    {
+      "id": "claim.attention-in-working-memory",
+      "title": "Attention is one influence, not a complete explanation",
+      "wording": "Cowan discusses attention as one process that can influence which information is kept available in working memory, while noting that attention alone does not explain all individual differences.",
+      "kind": "qualified-review-finding",
+      "population": "Theoretical discussion grounded in working-memory studies; no individual attention assessment is implied.",
+      "outcome": "Conceptual account of processes relevant to working-memory performance.",
+      "studyDesign": "Review article discussing competing explanations and experimental findings.",
+      "transferLevel": "not-applicable",
+      "evidenceLabel": "Moderate support for the qualified relationship; the process is not a single-cause explanation.",
+      "grade": "B",
+      "sourceIds": [
+        "source.cowan-2010"
+      ],
+      "limitationIds": [
+        "limit.cowan-attention-is-not-the-whole-story"
+      ],
+      "surfacePolicy": "beginner-summary"
+    },
+    {
+      "id": "claim.retrieval-education",
+      "title": "Retrieval practice in educational settings",
+      "wording": "A systematic review coded 50 classroom experiments involving 5,374 learners; 57% of 49 effect sizes were medium or large, and retrieval practice improved learning across a range of studied educational conditions. Only 6% of the experiments were conducted in non-WEIRD countries, limiting how broadly these results may generalize.",
+      "kind": "systematic-review-finding",
+      "population": "Students in the classroom experiments included in the review, across varied education levels and subject areas.",
+      "outcome": "Learning outcomes assessed in the included classroom experiments; not broad intelligence, health, or everyday functioning.",
+      "studyDesign": "Systematic review of applied school and classroom research; 50 experiments, 49 effect sizes, total N=5,374.",
+      "transferLevel": "educational-learning-outcomes",
+      "evidenceLabel": "Moderate-to-strong support for retrieval practice in the reviewed classroom contexts, with generalizability limits.",
+      "grade": "B",
+      "sourceIds": [
+        "source.agarwal-2021"
+      ],
+      "limitationIds": [
+        "limit.agarwal-context-and-generalizability",
+        "limit.demo-is-not-the-reviewed-intervention"
+      ],
+      "surfacePolicy": "evidence-card"
+    },
+    {
+      "id": "claim.roediger-delay-contrast",
+      "title": "The effect depended on the final-test interval",
+      "wording": "In two experiments with students studying prose passages, repeated free-recall practice led to better recall than restudy at two days and one week; at five minutes, repeated study led to better recall.",
+      "kind": "controlled-study-finding",
+      "population": "Student participants studying prose passages in two experiments.",
+      "outcome": "Recall of the studied passages on final tests at five minutes, two days, or one week.",
+      "studyDesign": "Two experiments comparing immediate free-recall tests without feedback with restudy; final retention test after a specified interval.",
+      "transferLevel": "delayed-retention-of-studied-material",
+      "evidenceLabel": "Moderate support for this specific experiment and these retention intervals.",
+      "grade": "B",
+      "sourceIds": [
+        "source.roediger-karpicke-2006"
+      ],
+      "limitationIds": [
+        "limit.roediger-specific-materials-and-intervals",
+        "limit.demo-has-no-delayed-follow-up"
+      ],
+      "surfacePolicy": "evidence-card"
+    },
+    {
+      "id": "claim.wm-training-transfer",
+      "title": "Working-memory training and far transfer",
+      "wording": "A 2016 meta-analysis found reliable intermediate transfer on working-memory measures, but no convincing evidence of reliable far-transfer improvement versus treated controls on the broader measures it reviewed.",
+      "kind": "meta-analysis-finding",
+      "population": "Controlled working-memory training studies included in the 2016 review.",
+      "outcome": "Intermediate working-memory outcomes and broader measures including ability, decoding, reading comprehension, and arithmetic.",
+      "studyDesign": "Meta-analysis of 87 publications and 145 experimental comparisons with pretest-posttest and control groups.",
+      "transferLevel": "intermediate-and-far-transfer-review",
+      "evidenceLabel": "Moderate support for this qualified transfer caution in the included studies.",
+      "grade": "B",
+      "sourceIds": [
+        "source.melby-lervag-2016"
+      ],
+      "limitationIds": [
+        "limit.melby-review-scope-and-date"
+      ],
+      "surfacePolicy": "evidence-card"
+    },
+    {
+      "id": "claim.practice-techniques",
+      "title": "Practice testing and distributed practice",
+      "wording": "A 2013 review rated practice testing and distributed practice as high-utility learning techniques across the conditions it examined. That review-level judgment is not a guarantee for every learner or evidence that this single-round demonstration improves later learning.",
+      "kind": "literature-review-finding",
+      "population": "Students and learning contexts represented in the review’s evaluation of ten techniques.",
+      "outcome": "Performance across reviewed criterion tasks; not a measure of intelligence or health.",
+      "studyDesign": "Review evaluating generalizability across learning conditions, student characteristics, materials, criterion tasks, and educational contexts.",
+      "transferLevel": "educational-learning-outcomes",
+      "evidenceLabel": "Moderate-to-strong support for the review’s recommendations, subject to the reviewed conditions.",
+      "grade": "B",
+      "sourceIds": [
+        "source.dunlosky-2013"
+      ],
+      "limitationIds": [
+        "limit.dunlosky-context-and-implementation",
+        "limit.demo-is-not-the-reviewed-intervention"
+      ],
+      "surfacePolicy": "evidence-card"
+    },
+    {
+      "id": "claim.sleep-duration-guideline",
+      "title": "A population-level sleep-duration recommendation",
+      "wording": "A joint American Academy of Sleep Medicine and Sleep Research Society consensus statement recommends that healthy adults aged 18–60 obtain at least 7 hours of sleep per night on a regular basis to promote optimal health. This refers to sleep duration, not time reserved in bed.",
+      "kind": "consensus-recommendation",
+      "population": "Healthy adults aged 18–60. The recommendation is not an individualized sleep target and does not cover children or all older adults.",
+      "outcome": "Regular sleep duration intended to promote general health; not a treatment effect, personal prediction, or claim about cognitive training.",
+      "studyDesign": "Joint professional-society consensus statement using a modified RAND Appropriateness Method; a 15-expert panel reviewed 5,314 scientific articles and used multiple rounds of evidence review, discussion, and voting.",
+      "transferLevel": "health-guideline",
+      "evidenceLabel": "Moderate support for this broad population-level benchmark. Individual sleep needs vary, and the statement is not a personalized prescription.",
+      "grade": "B",
+      "sourceIds": [
+        "source.watson-2015"
+      ],
+      "limitationIds": [
+        "limit.sleep-guideline-population-and-variability",
+        "limit.sleep-opportunity-is-not-sleep-duration"
+      ],
+      "surfacePolicy": "beginner-summary"
+    },
+    {
+      "id": "claim.sleep-memory-review",
+      "title": "Sleep and measured memory outcomes",
+      "wording": "A review of 19 systematic reviews and meta-analyses reported sleep-related benefits for some measured memory outcomes in healthy, neurotypical children and adults. Findings varied by memory type and age; these studies do not show that a schedule tool or one sleep change will improve everyday learning.",
+      "kind": "review-of-reviews-finding",
+      "population": "Healthy, neurotypical children and adults represented in the included reviews; the reported sleep-memory patterns differed across age groups and memory tasks.",
+      "outcome": "Memory consolidation and performance on specific experimental tasks; not general cognitive ability, school/work outcomes, or an individual health outcome.",
+      "studyDesign": "A review of 19 existing systematic reviews and meta-analyses. The search was limited to PubMed and English-language publications; abstracts were screened by one author and the authors did not formally appraise the included reviews, explicitly noting this was not an umbrella review.",
+      "transferLevel": "experimental-memory-outcomes",
+      "evidenceLabel": "Preliminary, qualified support for selected memory outcomes. Task, age, and study differences matter; the synthesis has material search and appraisal limitations.",
+      "grade": "C",
+      "sourceIds": [
+        "source.weighall-kellar-2023"
+      ],
+      "limitationIds": [
+        "limit.sleep-memory-review-methods",
+        "limit.sleep-memory-not-everyday-transfer"
+      ],
+      "surfacePolicy": "evidence-card"
+    },
+    {
+      "id": "claim.sleep-deprivation-memory",
+      "title": "One full night without sleep after learning",
+      "wording": "In a meta-analysis of laboratory studies of healthy adults, at least one full night of total sleep deprivation after learning was followed by poorer later memory-task performance than a normal-sleep control on average (Hedges’ g = 0.277, 95% CI [0.177, 0.377]). This does not estimate the effect of ordinary schedule changes or this planner.",
+      "kind": "meta-analysis-finding",
+      "population": "Healthy adults aged 18 or older in 45 reports (1,616 participants). Available age data were concentrated among young adults, so evidence about older age groups was limited.",
+      "outcome": "Performance on experimental long-term memory tasks after learning; 109 of 130 effect sizes assessed declarative memory and 21 assessed procedural memory. Not school/work outcomes or general cognitive ability.",
+      "studyDesign": "Post-learning analysis from two meta-analyses of acute total sleep deprivation (at least one full night) versus a normal-sleep control: 45 reports, 130 effect sizes, using a multilevel random-effects model.",
+      "transferLevel": "experimental-memory-task",
+      "evidenceLabel": "Moderate support for this narrow experimental contrast. The estimate is small-to-medium on average, but substantial between-study variation, low statistical power, and evidence of publication bias reduce certainty.",
+      "grade": "B",
+      "sourceIds": [
+        "source.newbury-crowley-2021"
+      ],
+      "limitationIds": [
+        "limit.sleep-deprivation-is-not-routine-restriction",
+        "limit.sleep-deprivation-study-variation-and-bias",
+        "limit.sleep-memory-not-everyday-transfer"
+      ],
+      "surfacePolicy": "evidence-card"
+    }
+  ],
+  "evidenceSources": [
+    {
+      "id": "source.cowan-2010",
+      "authors": [
+        "Nelson Cowan"
+      ],
+      "year": 2010,
+      "title": "The Magical Mystery Four: How is Working Memory Capacity Limited, and Why?",
+      "publication": "Current Directions in Psychological Science",
+      "volume": "19",
+      "issue": "1",
+      "pages": "51–57",
+      "sourceType": "review-article",
+      "doi": "10.1177/0963721409359277",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2864034/",
+      "publisherUrl": "https://journals.sagepub.com/doi/10.1177/0963721409359277",
+      "reviewedAt": "2026-10-04",
+      "reviewNote": "Full text and publisher abstract checked. The estimate is condition-specific; the article also discusses rehearsal, grouping, task demands, attention, and limits of single-explanation accounts."
+    },
+    {
+      "id": "source.agarwal-2021",
+      "authors": [
+        "Pooja K. Agarwal",
+        "Lara D. Nunes",
+        "Janell R. Blunt"
+      ],
+      "year": 2021,
+      "title": "Retrieval Practice Consistently Benefits Student Learning: A Systematic Review of Applied Research in Schools and Classrooms",
+      "publication": "Educational Psychology Review",
+      "volume": "33",
+      "pages": "1409–1453",
+      "sourceType": "systematic-review",
+      "doi": "10.1007/s10648-021-09595-9",
+      "url": "https://link.springer.com/article/10.1007/s10648-021-09595-9",
+      "reviewedAt": "2026-10-04",
+      "reviewNote": "Publisher abstract checked: 50 experiments, 49 effect sizes, N=5,374; 57% medium/large effects; 6% of experiments in non-WEIRD countries. Do not imply that this app demo reproduces those classroom interventions."
+    },
+    {
+      "id": "source.roediger-karpicke-2006",
+      "authors": [
+        "Henry L. Roediger",
+        "Jeffrey D. Karpicke"
+      ],
+      "year": 2006,
+      "title": "Test-Enhanced Learning: Taking Memory Tests Improves Long-Term Retention",
+      "publication": "Psychological Science",
+      "volume": "17",
+      "issue": "3",
+      "pages": "249–255",
+      "sourceType": "controlled-experiment",
+      "doi": "10.1111/j.1467-9280.2006.01693.x",
+      "url": "https://profiles.wustl.edu/en/publications/test-enhanced-learning-taking-memory-tests-improves-long-term-ret/",
+      "publisherUrl": "https://doi.org/10.1111/j.1467-9280.2006.01693.x",
+      "reviewedAt": "2026-10-04",
+      "reviewNote": "Institutional research profile and abstract checked. The five-minute comparison favored restudy, while delayed tests at two days and one week favored testing in these prose-passage experiments."
+    },
+    {
+      "id": "source.melby-lervag-2016",
+      "authors": [
+        "Monica Melby-Lervåg",
+        "Thomas S. Redick",
+        "Charles Hulme"
+      ],
+      "year": 2016,
+      "title": "Working Memory Training Does Not Improve Performance on Measures of Intelligence or Other Measures of ‘Far Transfer’: Evidence From a Meta-Analytic Review",
+      "publication": "Perspectives on Psychological Science",
+      "volume": "11",
+      "issue": "4",
+      "pages": "512–534",
+      "sourceType": "meta-analysis",
+      "doi": "10.1177/1745691616635612",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4968033/",
+      "reviewedAt": "2026-10-04",
+      "reviewNote": "Full text and abstract checked. The paper reports intermediate transfer on working-memory measures but no convincing reliable far-transfer gains versus treated controls on listed outcomes; it does not prove that transfer is impossible for all programs or contexts."
+    },
+    {
+      "id": "source.dunlosky-2013",
+      "authors": [
+        "John Dunlosky",
+        "Katherine A. Rawson",
+        "Elizabeth J. Marsh",
+        "Mitchell J. Nathan",
+        "Daniel T. Willingham"
+      ],
+      "year": 2013,
+      "title": "Improving Students’ Learning With Effective Learning Techniques: Promising Directions From Cognitive and Educational Psychology",
+      "publication": "Psychological Science in the Public Interest",
+      "volume": "14",
+      "issue": "1",
+      "pages": "4–58",
+      "sourceType": "literature-review",
+      "doi": "10.1177/1529100612453266",
+      "url": "https://journals.sagepub.com/doi/10.1177/1529100612453266",
+      "publisherUrl": "https://doi.org/10.1177/1529100612453266",
+      "reviewedAt": "2026-10-04",
+      "reviewNote": "Publisher abstract and PubMed bibliographic record checked. The article rated practice testing and distributed practice high utility across evaluated learning contexts; it is not a product-specific trial."
+    },
+    {
+      "id": "source.watson-2015",
+      "authors": [
+        "Nathaniel F. Watson",
+        "M. Safwan Badr",
+        "Gregory Belenky",
+        "Donald L. Bliwise",
+        "Orfeu M. Buxton",
+        "Daniel Buysse",
+        "David F. Dinges",
+        "James Gangwisch",
+        "Michael A. Grandner",
+        "Clete Kushida",
+        "Raman K. Malhotra",
+        "Jennifer L. Martin",
+        "Sanjay R. Patel",
+        "Stuart F. Quan",
+        "Esra Tasali"
+      ],
+      "year": 2015,
+      "title": "Recommended Amount of Sleep for a Healthy Adult: A Joint Consensus Statement of the American Academy of Sleep Medicine and Sleep Research Society",
+      "publication": "Sleep",
+      "volume": "38",
+      "issue": "6",
+      "pages": "843–844",
+      "sourceType": "consensus-statement",
+      "doi": "10.5665/sleep.4716",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4434546/",
+      "publisherUrl": "https://doi.org/10.5665/sleep.4716",
+      "reviewedAt": "2026-10-04",
+      "reviewNote": "Full text and publisher/PMC metadata checked. The 15-expert panel used a modified RAND process, reviewed 5,314 scientific articles, and recommended 7+ hours regularly for healthy adults aged 18–60. It explicitly notes individual variability and advises consulting a healthcare provider about concerns of too little or too much sleep."
+    },
+    {
+      "id": "source.weighall-kellar-2023",
+      "authors": [
+        "Anna Weighall",
+        "Ian Kellar"
+      ],
+      "year": 2023,
+      "title": "Sleep and memory consolidation in healthy, neurotypical children, and adults: a summary of systematic reviews and meta-analyses",
+      "publication": "Emerging Topics in Life Sciences",
+      "volume": "7",
+      "issue": "5",
+      "pages": "513–524",
+      "sourceType": "review-of-reviews",
+      "doi": "10.1042/ETLS20230110",
+      "url": "https://portlandpress.com/emergtoplifesci/article/7/5/513/234981/Sleep-and-memory-consolidation-in-healthy",
+      "publisherUrl": "https://doi.org/10.1042/ETLS20230110",
+      "reviewedAt": "2026-10-04",
+      "reviewNote": "Full article and repository/publisher metadata checked. It identified 19 systematic reviews/meta-analyses, but searched PubMed only, restricted to English, used single-author abstract screening, and did not formally appraise included reviews; the authors say it is not an umbrella review. Findings differ by memory type and age."
+    },
+    {
+      "id": "source.newbury-crowley-2021",
+      "authors": [
+        "Chloe R. Newbury",
+        "Rebecca Crowley",
+        "Kathleen Rastle",
+        "Jakke Tamminen"
+      ],
+      "year": 2021,
+      "title": "Sleep Deprivation and Memory: Meta-Analytic Reviews of Studies on Sleep Deprivation Before and After Learning",
+      "publication": "Psychological Bulletin",
+      "volume": "147",
+      "issue": "11",
+      "pages": "1215–1240",
+      "sourceType": "meta-analysis",
+      "doi": "10.1037/bul0000348",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8893218/",
+      "publisherUrl": "https://doi.org/10.1037/bul0000348",
+      "reviewedAt": "2026-10-04",
+      "reviewNote": "Full text and abstract checked in PMC. The after-learning analysis included 45 reports, 130 effect sizes, and 1,616 healthy adults aged 18+; deprivation lasted at least one full night. It reports Hedges’ g=0.277 (95% CI 0.177–0.377), significant study heterogeneity and funnel-plot asymmetry, and low power (mean about 14% to detect the pooled effect); participants were heavily skewed toward younger adults. This is not evidence about this product planner or ordinary schedule changes."
+    }
+  ],
+  "limitations": [
+    {
+      "id": "limit.cowan-model-and-task",
+      "text": "Cowan’s three-to-five-item estimate is about a central store under specific controlled conditions, for young adults, and depends on what counts as a meaningful item. Rehearsal, grouping, task demands, and individual variation matter. Never display it as a visitor’s capacity or a universal fixed limit.",
+      "appliesToClaimIds": [
+        "claim.working-memory-active",
+        "claim.working-memory-limits"
+      ]
+    },
+    {
+      "id": "limit.cowan-attention-is-not-the-whole-story",
+      "text": "The review discusses attention as one process that can influence working-memory use and also describes evidence that capacity differences cannot be reduced to attention alone. Do not present attention as a sole cause or the activity as an attention measure.",
+      "appliesToClaimIds": [
+        "claim.attention-in-working-memory"
+      ]
+    },
+    {
+      "id": "limit.agarwal-context-and-generalizability",
+      "text": "Only 6% of the reviewed classroom experiments were conducted in non-WEIRD countries. The review supports qualified statements about the included educational research, not equal effects in every country, learner, or app format.",
+      "appliesToClaimIds": [
+        "claim.retrieval-education"
+      ]
+    },
+    {
+      "id": "limit.roediger-specific-materials-and-intervals",
+      "text": "This is a specific pair of student experiments using prose passages, repeated immediate recall without feedback, and final tests at particular delays. It does not establish that this one-round app demonstration produces durable learning or broad transfer.",
+      "appliesToClaimIds": [
+        "claim.roediger-delay-contrast"
+      ]
+    },
+    {
+      "id": "limit.melby-review-scope-and-date",
+      "text": "The 2016 meta-analysis covers the interventions, treated-control comparisons, and outcomes included in that review. It is not evidence that every possible training method has no transfer; recheck newer evidence before making a categorical field-wide statement.",
+      "appliesToClaimIds": [
+        "claim.wm-training-transfer"
+      ]
+    },
+    {
+      "id": "limit.dunlosky-context-and-implementation",
+      "text": "The review’s high-utility rating is an evaluation of a learning technique across its reviewed conditions, not a guarantee for an individual. Materials, feedback, retention interval, learner, and implementation still matter.",
+      "appliesToClaimIds": [
+        "claim.practice-techniques"
+      ]
+    },
+    {
+      "id": "limit.demo-is-not-the-reviewed-intervention",
+      "text": "The product’s one-round word-recall demonstration is not the classroom retrieval-practice programs or full study procedures evaluated by these sources. Sources provide context, not validation or an efficacy estimate for this activity.",
+      "appliesToClaimIds": [
+        "claim.retrieval-education",
+        "claim.practice-techniques"
+      ]
+    },
+    {
+      "id": "limit.demo-has-no-delayed-follow-up",
+      "text": "A single immediate-recall round has no delayed follow-up. Its score cannot establish later retention, learning, or performance outside that round.",
+      "appliesToClaimIds": [
+        "claim.roediger-delay-contrast"
+      ]
+    },
+    {
+      "id": "limit.demo-is-not-an-assessment",
+      "text": "This activity has no normative sample, reliability/validity study, diagnostic threshold, or comparison group. It is an educational demonstration, not a measure of overall memory, working-memory capacity, attention, intelligence, health, or future performance.",
+      "appliesToClaimIds": []
+    },
+    {
+      "id": "limit.sleep-guideline-population-and-variability",
+      "text": "The AASM/SRS benchmark is for healthy adults aged 18–60 and concerns regular sleep duration. It is not a recommendation for children, a tailored target for every older adult, or a personal assessment. Sleep need varies with individual and contextual factors; the statement advises people concerned about too little or too much sleep to consult a healthcare provider.",
+      "appliesToClaimIds": [
+        "claim.sleep-duration-guideline"
+      ]
+    },
+    {
+      "id": "limit.sleep-opportunity-is-not-sleep-duration",
+      "text": "The planner calculates a user-chosen time window, not time asleep. Time to fall asleep, waking during the night, sleep quality, naps, shift schedules, health conditions, and other factors are not measured or included; a 7-hour window cannot be treated as 7 hours of sleep or as proof that a guideline is met.",
+      "appliesToClaimIds": [
+        "claim.sleep-duration-guideline"
+      ]
+    },
+    {
+      "id": "limit.sleep-memory-review-methods",
+      "text": "The review-of-reviews searched PubMed only, included English-language reviews, screened relevant abstracts with a single reviewer, and did not formally appraise the methodological quality of the included reviews. The authors explicitly state that their paper is not a formal umbrella review.",
+      "appliesToClaimIds": [
+        "claim.sleep-memory-review"
+      ]
+    },
+    {
+      "id": "limit.sleep-memory-not-everyday-transfer",
+      "text": "The memory findings concern outcomes from particular experimental tasks and research sleep conditions. They do not establish better grades, work performance, everyday memory, broad cognitive ability, or an effect of this product, a specific bedtime, or a schedule change.",
+      "appliesToClaimIds": [
+        "claim.sleep-memory-review",
+        "claim.sleep-deprivation-memory"
+      ]
+    },
+    {
+      "id": "limit.sleep-deprivation-is-not-routine-restriction",
+      "text": "The Newbury et al. post-learning analysis concerns healthy adults kept awake for at least one full night versus a normal-sleep control. It excluded multi-night sleep-restriction protocols; do not generalize this estimate to ordinary short sleep, shift work, sleep disorders, or the planner’s arithmetic.",
+      "appliesToClaimIds": [
+        "claim.sleep-deprivation-memory"
+      ]
+    },
+    {
+      "id": "limit.sleep-deprivation-study-variation-and-bias",
+      "text": "Effects varied substantially across studies and outcomes. The paper found significant funnel-plot asymmetry suggesting publication bias, low average power to detect the pooled effect, and limited age representation beyond young adults; estimates and applicability remain uncertain.",
+      "appliesToClaimIds": [
+        "claim.sleep-deprivation-memory"
+      ]
+    },
+    {
+      "id": "limit.sleep-planner-not-clinical-guidance",
+      "text": "The planner performs clock arithmetic only. It is not a sleep tracker, clinical screen, diagnosis, treatment, or recommendation; it cannot determine whether a window is healthy or suitable for a person and does not account for sleep quality, awakenings, schedule constraints, or health context.",
+      "appliesToClaimIds": []
+    }
+  ],
+  "measures": [
+    {
+      "id": "measure.demo-correct-items",
+      "label": "Correct listed words in this round",
+      "unit": "items",
+      "definition": "Count distinct words from the displayed list that the participant enters for this round.",
+      "interpretation": "A raw, task-specific observation from one round only; do not norm, rank, diagnose, or infer durable learning.",
+      "minimum": 0,
+      "maximumRule": "number-of-words-in-this-round"
+    }
+  ],
+  "activities": [
+    {
+      "id": "activity.self-paced-word-recall",
+      "slug": "self-paced-word-recall",
+      "title": "A short, self-paced word-recall demonstration",
+      "status": "implemented-in-s6",
+      "routePath": "/lab",
+      "purpose": "Let a learner experience one simple recall task and inspect its exact task-level result and limits.",
+      "procedureSummary": "Show a short word list; let the learner choose when to hide it; accept recalled words without a response timer.",
+      "conceptIds": [
+        "concept.memory",
+        "concept.retrieval-practice"
+      ],
+      "measureIds": [
+        "measure.demo-correct-items"
+      ],
+      "contextSourceIds": [
+        "source.agarwal-2021",
+        "source.roediger-karpicke-2006"
+      ],
+      "efficacyEvidenceIds": [],
+      "limitationIds": [
+        "limit.demo-is-not-the-reviewed-intervention",
+        "limit.demo-has-no-delayed-follow-up",
+        "limit.demo-is-not-an-assessment"
+      ],
+      "notMeasures": [
+        "overall memory",
+        "working-memory capacity",
+        "attention",
+        "intelligence or IQ",
+        "long-term retention",
+        "school, work, or everyday performance",
+        "health or diagnosis"
+      ]
+    },
+    {
+      "id": "activity.sleep-opportunity-planner",
+      "slug": "sleep-opportunity-planner",
+      "title": "A local-only sleep-opportunity planner",
+      "status": "implemented-in-s11",
+      "routePath": "/explore/sleep",
+      "purpose": "Let a person sketch a time window from a wake time and window length they choose, then inspect the clock arithmetic without recording personal sleep data.",
+      "procedureSummary": "Enter a wake time and a user-selected number of hours. The page shows the calculated window start, or explains why a window under seven hours cannot provide seven hours of actual sleep. Values are kept only in page state and are not saved or sent.",
+      "conceptIds": [
+        "concept.sleep"
+      ],
+      "measureIds": [],
+      "contextSourceIds": [
+        "source.watson-2015"
+      ],
+      "efficacyEvidenceIds": [],
+      "limitationIds": [
+        "limit.sleep-opportunity-is-not-sleep-duration",
+        "limit.sleep-planner-not-clinical-guidance"
+      ],
+      "notMeasures": [
+        "actual sleep duration or sleep quality",
+        "individual sleep need or health status",
+        "a sleep disorder or other diagnosis",
+        "memory, attention, learning, or cognitive transfer",
+        "adherence, sleep behavior, or treatment response"
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "edge.memory-working-memory",
+      "fromId": "concept.memory",
+      "toId": "concept.working-memory",
+      "type": "related_to",
+      "label": "This pathway focuses on working memory as one related topic.",
+      "causalImplication": false,
+      "claimIds": [
+        "claim.working-memory-active"
+      ]
+    },
+    {
+      "id": "edge.working-memory-attention",
+      "fromId": "concept.working-memory",
+      "toId": "concept.attention",
+      "type": "related_to",
+      "label": "Attention can influence how working memory is used, but is not the whole explanation.",
+      "causalImplication": false,
+      "claimIds": [
+        "claim.attention-in-working-memory"
+      ]
+    },
+    {
+      "id": "edge.memory-retrieval-practice",
+      "fromId": "concept.memory",
+      "toId": "concept.retrieval-practice",
+      "type": "related_to",
+      "label": "This pathway also explores the act of recalling information.",
+      "causalImplication": false,
+      "claimIds": [
+        "claim.retrieval-education"
+      ]
+    },
+    {
+      "id": "edge.retrieval-practice-learning",
+      "fromId": "concept.retrieval-practice",
+      "toId": "concept.learning",
+      "type": "related_to",
+      "label": "Research has studied retrieval practice in relation to educational learning outcomes.",
+      "causalImplication": false,
+      "claimIds": [
+        "claim.retrieval-education",
+        "claim.roediger-delay-contrast",
+        "claim.practice-techniques"
+      ]
+    },
+    {
+      "id": "edge.retrieval-demo",
+      "fromId": "concept.retrieval-practice",
+      "toId": "activity.self-paced-word-recall",
+      "type": "illustrated_by",
+      "label": "One optional demonstration; not evidence that this activity improves learning.",
+      "causalImplication": false,
+      "claimIds": []
+    },
+    {
+      "id": "edge.sleep-memory",
+      "fromId": "concept.sleep",
+      "toId": "concept.memory",
+      "type": "related_to",
+      "label": "Sleep and memory research examines specific retention tasks; this map link does not imply a personal or everyday improvement.",
+      "causalImplication": false,
+      "claimIds": [
+        "claim.sleep-memory-review",
+        "claim.sleep-deprivation-memory"
+      ]
+    },
+    {
+      "id": "edge.sleep-learning",
+      "fromId": "concept.sleep",
+      "toId": "concept.learning",
+      "type": "related_to",
+      "label": "Follow the experimental sleep-and-memory findings in context; this navigation is not a claim that a schedule change improves learning.",
+      "causalImplication": false,
+      "claimIds": [
+        "claim.sleep-memory-review",
+        "claim.sleep-deprivation-memory"
+      ]
+    },
+    {
+      "id": "edge.sleep-opportunity-planner",
+      "fromId": "concept.sleep",
+      "toId": "activity.sleep-opportunity-planner",
+      "type": "illustrated_by",
+      "label": "Optional clock arithmetic with user-chosen inputs; it does not measure or store sleep.",
+      "causalImplication": false,
+      "claimIds": []
+    }
+  ]
+}

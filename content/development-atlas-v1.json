@@ -1,0 +1,544 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "1.0.0",
+  "reviewedAt": "2026-10-04",
+  "title": "Development Atlas",
+  "intro": "Explore how people think, learn, feel, connect, and develop across life. Each pathway offers a small place to begin and explains whether it is task practice, an everyday skill, support for health/context, or learning and reflection. This map is broad, not exhaustive or a validated curriculum.",
+  "careNotice": "Educational only—not medical advice, diagnosis, treatment, or a substitute for qualified care. Practices are optional; adapt or skip them. Do not use the atlas to delay help for persistent, sudden, or concerning changes. If you or someone else is in immediate danger, contact local emergency services or trusted local support.",
+  "planNotice": "The practice menu is optional and temporary. It makes no schedule, dose, health target, or promise of improvement. Your selections stay in this page session only; nothing is saved by the atlas unless you choose to copy or print it yourself.",
+  "clusters": [
+    {
+      "id": "think-learn",
+      "title": "Think & learn",
+      "summary": "Explore memory, focus, reasoning, self-regulated learning, and creative problem framing. Task practice stays tied to the task you actually did."
+    },
+    {
+      "id": "feel-connect",
+      "title": "Feel & connect",
+      "summary": "Explore emotions, stress and coping, communication, and the social conditions that shape connection. No feelings or relationships need to be shared with the app."
+    },
+    {
+      "id": "body-foundations",
+      "title": "Body & foundations",
+      "summary": "Learn about sleep, recovery, movement, sensory health, nourishment, and daily context without turning them into game scores or one-size-fits-all prescriptions."
+    },
+    {
+      "id": "life-context",
+      "title": "Life, context & science",
+      "summary": "Explore habits and environments, brain and behavior, consciousness, individual differences, and development across the lifespan."
+    }
+  ],
+  "references": [
+    {
+      "id": "ref-dunlosky-2013",
+      "title": "Improving Students’ Learning With Effective Learning Techniques",
+      "publisher": "Psychological Science in the Public Interest",
+      "year": 2013,
+      "url": "https://doi.org/10.1177/1529100612453266",
+      "sourceType": "review",
+      "scope": "A review of ten study techniques and how well their benefits generalize across learning conditions, learners, materials, criterion tasks, and educational contexts.",
+      "supports": "The review rated practice testing and distributed practice as high-utility techniques in the contexts it examined.",
+      "limitation": "A review-level rating is not a guarantee for every learner or proof that this application, one short demo, intelligence, or health will improve."
+    },
+    {
+      "id": "ref-agarwal-2021",
+      "title": "Retrieval Practice Consistently Benefits Student Learning: A Systematic Review of Applied Research in Schools and Classrooms",
+      "publisher": "Educational Psychology Review",
+      "year": 2021,
+      "url": "https://doi.org/10.1007/s10648-021-09595-9",
+      "sourceType": "systematic review",
+      "scope": "Fifty classroom experiments, 49 effect sizes, and 5,374 learners; outcomes were learning in the educational conditions studied.",
+      "supports": "The authors report benefits of retrieval practice across a range of the reviewed school and classroom contexts; 57% of 49 effect sizes were medium or large.",
+      "limitation": "Only 6% of experiments were conducted in non-WEIRD countries. The findings do not validate this app's demo or establish broad cognitive, everyday, or health transfer."
+    },
+    {
+      "id": "ref-guo-2022",
+      "title": "Using metacognitive prompts to enhance self-regulated learning and learning outcomes: A meta-analysis of experimental studies in computer-based learning environments",
+      "publisher": "Journal of Computer Assisted Learning",
+      "year": 2022,
+      "url": "https://doi.org/10.1111/jcal.12650",
+      "sourceType": "meta-analysis",
+      "scope": "Experimental studies of planning, monitoring, and evaluation prompts in computer-based learning environments; outcomes included self-regulated-learning activities and learning outcomes.",
+      "supports": "The meta-analysis reported positive average effects versus controls and found effects varied with feedback, prompt specificity, and adaptability.",
+      "limitation": "This does not establish an effect for a generic prompt, every learner or setting, or this product. The atlas does not reproduce or validate the reviewed interventions."
+    },
+    {
+      "id": "ref-melby-lervag-2016",
+      "title": "Working Memory Training Does Not Improve Performance on Measures of Intelligence or Other Measures of Far Transfer: Evidence From a Meta-Analytic Review",
+      "publisher": "Perspectives on Psychological Science",
+      "year": 2016,
+      "url": "https://doi.org/10.1177/1745691616635612",
+      "sourceType": "meta-analytic review",
+      "scope": "Eighty-seven publications and 145 experimental comparisons of working-memory training with outcomes spanning working memory and broader measures.",
+      "supports": "The review found intermediate transfer on working-memory measures but no convincing evidence of reliable far-transfer improvement versus treated controls on the broader measures it included.",
+      "limitation": "The result is limited to the programs and outcomes reviewed in 2016; it is a qualified caution, not proof that no intervention can ever transfer."
+    },
+    {
+      "id": "ref-who-stress-2020",
+      "title": "Doing What Matters in Times of Stress: An Illustrated Guide",
+      "publisher": "World Health Organization",
+      "year": 2020,
+      "url": "https://www.who.int/publications/i/item/9789240003927",
+      "sourceType": "public self-help guide",
+      "scope": "A guide intended to equip people with practical skills for coping with stress and adversity, including grounding, values-guided action, kindness, and making room for difficult experiences.",
+      "supports": "The WHO guide offers optional self-help practices and can be used as an accessible resource for people experiencing stress.",
+      "limitation": "The atlas's adapted prompt is not the WHO intervention, has not been evaluated by WHO, does not guarantee symptom change, and is not a substitute for clinical care or immediate safety support."
+    },
+    {
+      "id": "ref-who-activity-2024",
+      "title": "Physical activity",
+      "publisher": "World Health Organization",
+      "year": 2024,
+      "url": "https://www.who.int/news-room/fact-sheets/detail/physical-activity",
+      "sourceType": "public-health fact sheet and guideline overview",
+      "scope": "Global public-health overview of physical activity across age groups and circumstances, with links to WHO guidelines for children, adults, older adults, pregnancy/postpartum, disability, and chronic conditions.",
+      "supports": "WHO states that all physical activity counts and describes health benefits at population level; recommendations vary by age and circumstance.",
+      "limitation": "This is not a personalized exercise plan or proof that an atlas prompt improves cognition for an individual. Safety, ability, health, and access differ."
+    },
+    {
+      "id": "ref-who-diet-2026",
+      "title": "Healthy diet",
+      "publisher": "World Health Organization",
+      "year": 2026,
+      "url": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet",
+      "sourceType": "public-health fact sheet",
+      "scope": "WHO fact sheet updated 26 January 2026; describes adequacy, balance, moderation, diversity, and food safety as general principles and notes variation by individual and cultural context.",
+      "supports": "The page presents broad, population-level healthy-diet principles and says food patterns vary with personal characteristics, local availability, and dietary custom.",
+      "limitation": "It is not an individualized diet prescription or evidence that this application changes cognition or health. Medical needs, food access, pregnancy, culture, and personal circumstances matter."
+    },
+    {
+      "id": "ref-who-social-2025",
+      "title": "From loneliness to social connection: charting a path to healthier societies",
+      "publisher": "World Health Organization Commission on Social Connection",
+      "year": 2025,
+      "url": "https://www.who.int/publications/i/item/978240112360",
+      "sourceType": "global commission report",
+      "scope": "A 213-page report drawing on multidisciplinary research, global data, and lived experience; it considers individual/relationship, community, and societal approaches to social connection.",
+      "supports": "Social connection is framed as a health and well-being topic shaped at multiple levels; the report discusses a range of policy, community, and individual responses.",
+      "limitation": "The report does not validate this app's listening prompt or show that a brief individual exercise prevents loneliness. Social disconnection can have structural causes and relationships are not always safe."
+    },
+    {
+      "id": "ref-nasem-learning-2018",
+      "title": "How People Learn II: Learners, Contexts, and Cultures",
+      "publisher": "National Academies of Sciences, Engineering, and Medicine",
+      "year": 2018,
+      "url": "https://doi.org/10.17226/24783",
+      "sourceType": "consensus study report",
+      "scope": "A synthesis commissioned to cover learning from infancy through adulthood, including cultural and learning contexts, cognitive neuroscience, language, cognition, social/emotional/motivational influences, and special populations.",
+      "supports": "Learning and development are appropriately considered across ages, domains, contexts, cultures, and learner differences.",
+      "limitation": "The report's scope does not prove that every atlas topic is covered or that a specific practice here is effective."
+    },
+    {
+      "id": "ref-nia-cognitive-health",
+      "title": "Cognitive Health and Older Adults",
+      "publisher": "National Institute on Aging, National Institutes of Health",
+      "year": 2026,
+      "url": "https://www.nia.nih.gov/health/brain-health/cognitive-health-and-older-adults",
+      "sourceType": "public-health overview",
+      "scope": "A U.S. government overview for older adults about factors related to cognitive health, health care, social activity, and research uncertainty.",
+      "supports": "Cognitive health has multiple contributors; the page cautions against assuming commercial brain-training apps have the effects of studied interventions.",
+      "limitation": "The audience and health-system context are U.S.-specific and older-adult-focused. It is not an individualized clinical recommendation or a global guideline."
+    }
+  ],
+  "pathways": [
+    {
+      "id": "memory-learning",
+      "clusterId": "think-learn",
+      "title": "Memory & learning",
+      "type": "task-practice",
+      "typeLabel": "Learn and practise a defined task",
+      "summary": "Learning involves more than storing facts: attention, meaning, retrieval, feedback, spacing, and prior knowledge can all matter.",
+      "topics": ["Working and long-term memory", "Retrieval and spaced practice", "Feedback and comprehension", "Language and study strategies"],
+      "offer": "Use the material you actually care about, practise recalling it, check the answer, and revisit it later. Explore the reviewed memory and learning map; the site also has a one-round recall demonstration and small task-specific games.",
+      "starter": {
+        "title": "Recall · check · revisit",
+        "timeHint": "A few minutes, at your own pace",
+        "steps": [
+          "Choose a small idea you are trying to learn and study it once.",
+          "Close the source and recall two or three main points in your own words; then check and correct them.",
+          "Return after a gap that fits your material and week, and try to retrieve the idea again before reviewing."
+        ]
+      },
+      "apply": "Try it with a class topic, a language item, instructions you need later, or another real learning goal. The next revisit is your choice, not a required schedule.",
+      "notice": "Ask whether you could retrieve the idea, what needed correction, and whether the spacing felt workable. A single attempt does not show durable learning.",
+      "boundary": "Reviews support retrieval and distributed practice in many studied educational conditions, but effects vary. This app's one-round demonstration and games are not the same interventions and do not establish broad memory, intelligence, or health improvement.",
+      "evidenceNote": "The linked research describes learning outcomes in studied contexts. It does not validate this product's activity or guarantee results for an individual.",
+      "links": [
+        {"label": "Explore memory", "href": "/explore/memory"},
+        {"label": "Explore learning", "href": "/explore/learning"},
+        {"label": "Explore retrieval practice", "href": "/explore/retrieval-practice"},
+        {"label": "Try the one-round recall demonstration", "href": "/lab"},
+        {"label": "Browse task-specific games", "href": "/train#activities"},
+        {"label": "Read the learning evidence", "href": "/evidence#retrieval-evidence"}
+      ],
+      "referenceIds": ["ref-dunlosky-2013", "ref-agarwal-2021", "ref-melby-lervag-2016"]
+    },
+    {
+      "id": "attention-executive",
+      "clusterId": "think-learn",
+      "title": "Attention & executive skills",
+      "type": "task-practice",
+      "typeLabel": "Learn and practise a defined task",
+      "summary": "Focus, working memory, inhibition, switching between rules, and planning are related but distinct skills. What feels hard can also depend on the task and setting.",
+      "topics": ["Sustained and selective attention", "Working memory and updating", "Inhibition and task switching", "Planning and organization"],
+      "offer": "Explore attention concepts, try the unhurried visual-search or rule-switch activities, and use external supports such as a written next action or a quieter setup. The games report only their own item sets.",
+      "starter": {
+        "title": "One-task setup",
+        "timeHint": "Choose a comfortable interval",
+        "steps": [
+          "Name one small outcome and the first visible action needed to begin.",
+          "Choose a comfortable focus interval and reduce one optional distraction if you can.",
+          "If attention drifts, notice it and return, adapt, or stop; you do not need to push through fatigue or discomfort."
+        ]
+      },
+      "apply": "Try this with one ordinary home, study, or work task. Use accommodations or reminders that already help you.",
+      "notice": "Notice which task or environment change seemed useful, and what got in the way. Do not turn one session into an everyday-attention rating.",
+      "boundary": "Browser puzzles use small, artificial stimuli. A task score cannot diagnose ADHD, measure daily functioning, or show transfer; attention can also vary with context, stress, health, sensory access, and many other factors.",
+      "evidenceNote": "The current training activities are untimed product tasks, not clinical tests or validated executive-function programs.",
+      "links": [
+        {"label": "Explore attention", "href": "/explore/attention"},
+        {"label": "Browse attention and flexibility games", "href": "/train#activities"},
+        {"label": "See task-specific score limits", "href": "/evidence#activity-boundary"}
+      ],
+      "referenceIds": ["ref-melby-lervag-2016", "ref-nia-cognitive-health"]
+    },
+    {
+      "id": "reasoning-decisions",
+      "clusterId": "think-learn",
+      "title": "Reasoning, problem-solving & decisions",
+      "type": "task-practice",
+      "typeLabel": "Learn and practise a defined task",
+      "summary": "Reasoning can involve patterns, logic, quantitative ideas, generating options, checking assumptions, and deciding under uncertainty.",
+      "topics": ["Deduction and logic", "Patterns and quantitative reasoning", "Problem solving", "Evidence, probability and uncertainty"],
+      "offer": "Practise a small, clearly stated puzzle and read its explanation, then use a separate checklist for a low-stakes real decision. Good decisions also depend on information, values, constraints, and context.",
+      "starter": {
+        "title": "Explain one choice",
+        "timeHint": "A short, low-stakes example",
+        "steps": [
+          "State the question and the limits that matter for this choice.",
+          "List two plausible options and one reason or piece of evidence for each.",
+          "Name one important uncertainty and what information could change your next step."
+        ]
+      },
+      "apply": "Use the checklist for a reversible, low-stakes choice. For legal, medical, financial, or safety-critical decisions, use appropriate qualified support instead of relying on a puzzle or this prompt.",
+      "notice": "Notice whether separating evidence, assumptions, and uncertainty changes how you approach the question. There is no general decision score.",
+      "boundary": "Pattern, logic, arithmetic, and route puzzles train responses to those specific items. They are not standardized tests, IQ measures, clinical assessments, or proof of better real-world judgment.",
+      "evidenceNote": "The activities provide explanations and task-level feedback. The atlas makes no claim that they improve general reasoning or decision quality.",
+      "links": [
+        {"label": "Browse reasoning and route activities", "href": "/train#activities"},
+        {"label": "Review task-specific evidence and limits", "href": "/evidence#activity-boundary"}
+      ],
+      "referenceIds": ["ref-melby-lervag-2016"]
+    },
+    {
+      "id": "metacognition",
+      "clusterId": "think-learn",
+      "title": "Metacognition & self-regulated learning",
+      "type": "everyday-practice",
+      "typeLabel": "Practise a learning strategy",
+      "summary": "Metacognition is noticing and guiding parts of your own learning: setting a goal, estimating what you know, checking feedback, and choosing what to do next.",
+      "topics": ["Confidence and calibration", "Planning and goal-setting", "Monitoring and feedback", "Reflection and strategy choice"],
+      "offer": "Try a predict–attempt–check routine with a question or lesson you choose. Keep any reflection private; this prototype does not save confidence ratings or learning notes.",
+      "starter": {
+        "title": "Predict · try · check",
+        "timeHint": "Use during a learning task",
+        "steps": [
+          "Before checking an answer, make a private prediction about how well you can explain the idea; you can use low, medium, or high confidence.",
+          "Try to recall or solve the chosen item without looking at the explanation.",
+          "Check the answer, notice any mismatch between confidence and result, and choose one next learning step."
+        ]
+      },
+      "apply": "Use it when studying, learning a new procedure, or reviewing a task. A confidence estimate is a prompt for reflection, not a personality trait or test result.",
+      "notice": "Ask what you were sure about, what surprised you, and whether feedback changed your plan. You do not need to keep a log.",
+      "boundary": "Metacognitive prompts have been studied in specific educational and computer-based learning settings; effects varied with prompt and feedback design. This page's prompt is not a validated training program and does not certify a person's self-awareness or ability.",
+      "evidenceNote": "The research concerns structured prompts in learning environments, not every kind of reflection and not this specific atlas prompt.",
+      "links": [
+        {"label": "Explore learning", "href": "/explore/learning"},
+        {"label": "Read the learning evidence", "href": "/evidence#retrieval-evidence"}
+      ],
+      "referenceIds": ["ref-guo-2022", "ref-nasem-learning-2018"]
+    },
+    {
+      "id": "creativity-curiosity",
+      "clusterId": "think-learn",
+      "title": "Creativity & curiosity",
+      "type": "everyday-practice",
+      "typeLabel": "Try an open-ended practice",
+      "summary": "Creative work can include asking useful questions, generating possibilities, combining ideas, experimenting, and revising. Different goals need different kinds of creativity.",
+      "topics": ["Curiosity and question-asking", "Idea generation", "Constraints and reframing", "Experimentation and revision"],
+      "offer": "Use a low-pressure prompt to explore an idea or approach. The goal is exploration, not a score; there is no single correct output.",
+      "starter": {
+        "title": "Three ideas · one small test",
+        "timeHint": "Optional and open-ended",
+        "steps": [
+          "Choose a small everyday problem, question, or interest you are comfortable exploring.",
+          "Generate three different possibilities, including one unusual or deliberately simple option.",
+          "Choose one low-risk way to test or learn more; change the constraint if you get stuck."
+        ]
+      },
+      "apply": "Try the prompt with drawing, writing, cooking, making, teaching, play, or another interest that suits you. You may also stop without producing anything.",
+      "notice": "Notice what sparked curiosity or helped you make a new connection. Enjoyment, access, and purpose matter more than a number here.",
+      "boundary": "This prompt is an app-authored activity, not a validated creativity test or evidence that one short exercise changes general creativity, learning, or health.",
+      "evidenceNote": "The linked learning report motivates broad, contextual learning content; it is not evidence for this particular creativity prompt.",
+      "links": [
+        {"label": "Explore the concept map", "href": "/explore"},
+        {"label": "Use the optional practice menu", "href": "#practice-menu"}
+      ],
+      "referenceIds": ["ref-nasem-learning-2018"]
+    },
+    {
+      "id": "emotional-skills",
+      "clusterId": "feel-connect",
+      "title": "Emotional awareness & regulation",
+      "type": "everyday-practice",
+      "typeLabel": "Practise an optional reflection skill",
+      "summary": "Emotions can carry information about experiences, needs, and action urges, but a single feeling does not explain a whole person or situation.",
+      "topics": ["Noticing and naming feelings", "Emotional responses and context", "Regulation and coping choices", "Self-kindness and boundaries"],
+      "offer": "Try a private notice–name–choose prompt. No emotion journal, mood score, disclosure, EQ test, or automatic interpretation is required.",
+      "starter": {
+        "title": "Notice · name · choose",
+        "timeHint": "Only if it feels useful and safe",
+        "steps": [
+          "Pause only if you are somewhere safe. Notice what is happening without judging it.",
+          "If you want, name a feeling in your own words; you can also skip this step.",
+          "Ask what matters next and choose one small supportive action, such as taking a pause, setting a boundary, or contacting someone you trust."
+        ]
+      },
+      "apply": "Use the prompt privately or talk with a trusted person when that is safe and wanted. A qualified professional is a better source for persistent distress or mental-health concerns.",
+      "notice": "Notice whether naming an experience helps you choose a response; it is also fine if it does not fit or does not help.",
+      "boundary": "This is not an EQ test, mental-health screening, therapy, or crisis service. Emotions can be complex and context-dependent; do not use this prompt to dismiss danger or delay care.",
+      "evidenceNote": "The app's reflection prompt is an educational idea, not a tested intervention. No personal emotional data is requested or stored.",
+      "links": [
+        {"label": "Explore stress skills from the WHO guide", "href": "https://www.who.int/publications/i/item/9789240003927"},
+        {"label": "Review the general learning map", "href": "/explore"}
+      ],
+      "referenceIds": ["ref-who-stress-2020"]
+    },
+    {
+      "id": "stress-resilience",
+      "clusterId": "feel-connect",
+      "title": "Stress, resilience & coping",
+      "type": "everyday-practice",
+      "typeLabel": "Practise an optional coping skill",
+      "summary": "Stress can arise from personal, social, work, health, and community conditions. Coping skills may help some people in some moments, while causes and safety also matter.",
+      "topics": ["Grounding and present-moment attention", "Coping with difficult thoughts and feelings", "Values-guided next steps", "Support, adversity and recovery"],
+      "offer": "Try one short, optional grounding practice adapted from a WHO public self-help guide. The app keeps this prompt separate from treatment, crisis response, and health tracking.",
+      "starter": {
+        "title": "Orient to the present",
+        "timeHint": "A brief optional pause",
+        "steps": [
+          "If you choose, pause somewhere physically safe and notice the support under your feet, hands, or body.",
+          "Look around and notice one neutral thing you can see, hear, or feel where you are.",
+          "Choose one next small, safe action. Stop the exercise if it feels uncomfortable or is not right for you."
+        ]
+      },
+      "apply": "Use only when it feels appropriate. The WHO guide has additional self-help ideas; for persistent distress, unsafe circumstances, or symptoms disrupting life, contact qualified local support.",
+      "notice": "Grounding is not expected to make a difficult thought or feeling disappear. You may simply notice whether it helps you orient to the present or choose a next step.",
+      "boundary": "This adapted prompt has not been evaluated as a treatment. It does not remove an external threat, replace professional care, or guarantee resilience. In immediate danger, prioritize safety and local emergency/trusted support.",
+      "evidenceNote": "The WHO guide is the source for the broad coping-skills context; this adaptation is not endorsed or validated by WHO.",
+      "links": [
+        {"label": "Open WHO's stress self-help guide", "href": "https://www.who.int/publications/i/item/9789240003927"},
+        {"label": "Browse the development pathways", "href": "#pathways"}
+      ],
+      "referenceIds": ["ref-who-stress-2020"]
+    },
+    {
+      "id": "social-connection",
+      "clusterId": "feel-connect",
+      "title": "Social cognition, communication & connection",
+      "type": "everyday-practice",
+      "typeLabel": "Practise an everyday communication skill",
+      "summary": "People communicate through words, context, and interaction. Perspective-taking is an invitation to check another person's view—not a way to read minds.",
+      "topics": ["Active listening and open questions", "Perspective-taking and empathy", "Communication and collaboration", "Relationships, conflict and social connection"],
+      "offer": "Practise listening without scoring either person: ask whether the other person wants listening, ideas, or practical help, then check whether you understood them.",
+      "starter": {
+        "title": "Listen · reflect · check",
+        "timeHint": "Use only in a safe, willing conversation",
+        "steps": [
+          "Ask an open question and give the other person room to answer.",
+          "Reflect one point you heard in your own words, without guessing their hidden feelings or motives.",
+          "Check: 'Did I understand that the way you meant it?' Respect their answer or their wish not to continue."
+        ]
+      },
+      "apply": "Try this with someone you trust and only when the interaction is safe and welcome. Listening does not replace professional, community, or practical support.",
+      "notice": "Notice whether checking understanding changes the conversation. No one needs to be rated for empathy, social intelligence, facial expression, or relationship quality.",
+      "boundary": "A short communication prompt does not prevent loneliness or guarantee relationship outcomes. Social connection is shaped by personal, community, and structural conditions; not every relationship is safe.",
+      "evidenceNote": "The WHO report provides broad context on connection and multilevel responses. It does not test this micro-practice or promise a personal health outcome.",
+      "links": [
+        {"label": "Read the WHO Commission report on social connection", "href": "https://www.who.int/publications/i/item/978240112360"},
+        {"label": "Explore learning and communication-related concepts", "href": "/explore"}
+      ],
+      "referenceIds": ["ref-who-social-2025"]
+    },
+    {
+      "id": "sleep-recovery",
+      "clusterId": "body-foundations",
+      "title": "Sleep & recovery",
+      "type": "support-context",
+      "typeLabel": "Explore a health foundation",
+      "summary": "Sleep and recovery are part of health and daily context. Research tests specific groups, tasks, and sleep conditions; a calculator cannot tell you how well you sleep.",
+      "topics": ["Sleep opportunity and timing", "Rest and recovery", "Sleep and specific memory findings", "Individual and life-stage differences"],
+      "offer": "Read the existing sleep pathway, inspect its population-specific evidence, and optionally use its clock-arithmetic planner. It does not track sleep, choose a target, or connect a sleep entry to game scores.",
+      "starter": {
+        "title": "Explore a self-chosen sleep opportunity",
+        "timeHint": "Only if the clock arithmetic is useful",
+        "steps": [
+          "Open the sleep and recovery pathway and read the limits before using its optional planner.",
+          "If helpful, enter a wake time and a window you chose to see the corresponding clock time; the result is arithmetic only.",
+          "If sleep problems are persistent or concerning, use a qualified health professional rather than this tool."
+        ]
+      },
+      "apply": "Use the planner only for a hypothetical or self-chosen time window. It is not a bedtime recommendation or sleep diary.",
+      "notice": "Notice whether learning about sleep research answers your question. The planner does not measure actual sleep, sleep quality, recovery, memory, or health.",
+      "boundary": "Sleep needs and guidance differ by age and circumstances. The existing pathway presents a limited adult-duration statement with its population, and specific research findings do not show that this planner or a schedule change improves everyday learning.",
+      "evidenceNote": "Reuse the separately reviewed S11 sleep pathway and its evidence cards; do not create a universal sleep target in this atlas.",
+      "links": [
+        {"label": "Open sleep and recovery", "href": "/explore/sleep"},
+        {"label": "Explore the related memory pathway", "href": "/explore/memory"},
+        {"label": "See optional task-practice goals", "href": "/train#goals"}
+      ],
+      "referenceIds": []
+    },
+    {
+      "id": "movement-sensory-health",
+      "clusterId": "body-foundations",
+      "title": "Movement, physical & sensory health",
+      "type": "support-context",
+      "typeLabel": "Explore a health foundation",
+      "summary": "Movement, mobility, strength, balance, hearing, vision, pain, health conditions, and access to safe spaces can shape daily activity and experience.",
+      "topics": ["Everyday movement and activity", "Strength, balance and mobility", "Hearing and vision", "Health, accessibility and safe environments"],
+      "offer": "Explore accessible forms of movement and reliable public guidance. Any activity idea here is optional and should fit your ability, environment, and health advice.",
+      "starter": {
+        "title": "Choose a comfortable way to move—or skip",
+        "timeHint": "No personal duration or intensity target",
+        "steps": [
+          "If it is suitable for you, choose a kind of movement you already know is comfortable: walking, wheeling, reaching, household activity, or another option.",
+          "Adapt or stop if you feel pain, dizziness, unusual shortness of breath, or discomfort; you can simply explore the topic instead.",
+          "For new or vigorous activity, a medical condition, pregnancy-related questions, mobility needs, or safety concerns, follow qualified guidance tailored to you."
+        ]
+      },
+      "apply": "WHO's global guidance covers different ages and circumstances and notes that all activity counts. Access to safe, enjoyable movement is also shaped by environments and resources.",
+      "notice": "Notice only whether an option felt accessible and comfortable. This page does not ask you to record minutes, steps, heart rate, weight, or performance.",
+      "boundary": "This is not an exercise prescription, fitness test, rehabilitation plan, or claim that movement from this prompt improves cognition for an individual.",
+      "evidenceNote": "WHO's recommendations are population guidance with age- and circumstance-specific detail; they are not individualized instructions from this app.",
+      "links": [
+        {"label": "Read WHO's physical-activity overview", "href": "https://www.who.int/news-room/fact-sheets/detail/physical-activity"},
+        {"label": "Open WHO's global guidelines", "href": "https://www.who.int/publications/i/item/9789240015128"}
+      ],
+      "referenceIds": ["ref-who-activity-2024", "ref-nia-cognitive-health"]
+    },
+    {
+      "id": "nutrition-hydration",
+      "clusterId": "body-foundations",
+      "title": "Nutrition, hydration & energy",
+      "type": "support-context",
+      "typeLabel": "Explore a health foundation",
+      "summary": "Food and fluid needs are shaped by health, age, culture, availability, preferences, and personal circumstances. No single diet or hydration target fits everyone.",
+      "topics": ["Dietary variety and nourishment", "Food access and cultural context", "Hydration and individual needs", "Energy, routines and health context"],
+      "offer": "Learn WHO's general healthy-diet principles, then consider a practical support for access or routine if you want one. The atlas has no calorie log, food grade, or meal-plan generator.",
+      "starter": {
+        "title": "Make nourishment easier, if useful",
+        "timeHint": "Reflection only; no tracking",
+        "steps": [
+          "Read the general principles of adequacy, balance, moderation, and diversity from the WHO source.",
+          "If relevant and safe for you, identify one small practical support—such as making a preferred food or drink easier to access.",
+          "Adapt or skip the idea if it does not fit your health, budget, culture, access, or preferences. Follow qualified advice for dietary or fluid restrictions."
+        ]
+      },
+      "apply": "If a personal medical, allergy, eating-disorder, pregnancy, medication, or nutrition concern is involved, consult a qualified local clinician or dietitian; this page cannot personalize care.",
+      "notice": "Notice whether a support felt practical and respectful of your context. No food, body, weight, calorie, or hydration score is collected.",
+      "boundary": "This is not a diet, supplement, weight-loss, or hydration prescription. The WHO source gives population-level principles, not a personal meal plan or evidence that an app prompt improves cognition.",
+      "evidenceNote": "The source explicitly says healthy diets vary with individual characteristics, culture, local availability, and dietary custom.",
+      "links": [
+        {"label": "Read WHO's healthy-diet fact sheet", "href": "https://www.who.int/news-room/fact-sheets/detail/healthy-diet"},
+        {"label": "Explore related learning pathways", "href": "#pathways"}
+      ],
+      "referenceIds": ["ref-who-diet-2026"]
+    },
+    {
+      "id": "habits-motivation-environment",
+      "clusterId": "life-context",
+      "title": "Habits, motivation & environment",
+      "type": "everyday-practice",
+      "typeLabel": "Practise a planning skill",
+      "summary": "Goals and routines interact with cues, time, energy, access, relationships, and the environments people live and work in. A missed plan may call for a different plan—not blame.",
+      "topics": ["Goals and values", "Cues and routines", "Motivation and follow-through", "Environment, access and friction"],
+      "offer": "Make a small, user-owned if–then plan: connect a chosen action to an existing cue, make the first step easier, and adapt when life changes. There are no forced streaks or penalties.",
+      "starter": {
+        "title": "Choose a cue and a tiny next step",
+        "timeHint": "Keep the plan flexible",
+        "steps": [
+          "Choose one optional behavior or learning action you genuinely want to make easier.",
+          "Connect it to a cue you already encounter: 'After [existing cue], I will [small next action].' You can keep this private and outside the app.",
+          "Reduce one practical barrier if possible. If it does not happen, change the cue, step, or environment—or stop the plan without penalty."
+        ]
+      },
+      "apply": "Use the idea for a self-chosen learning or daily routine. For health behavior goals, use professional guidance when the goal is medically complex or safety-sensitive.",
+      "notice": "Notice fit, friction, and whether the action still matters to you. Completion is not evidence of a cognitive or health change.",
+      "boundary": "This is an app-authored planning prompt, not a validated habit intervention, productivity measure, or guarantee of motivation, adherence, or outcomes.",
+      "evidenceNote": "The planning idea is offered as a practical prompt without an efficacy claim. The existing `/train` goals are also user-led prototype schedules, not validated curricula.",
+      "links": [
+        {"label": "Browse optional user-led practice goals", "href": "/train#goals"},
+        {"label": "Build a private, temporary practice menu", "href": "#practice-menu"}
+      ],
+      "referenceIds": []
+    },
+    {
+      "id": "brain-perception-consciousness",
+      "clusterId": "life-context",
+      "title": "Brain, perception & consciousness",
+      "type": "learn-reflect",
+      "typeLabel": "Explore a science question",
+      "summary": "Brain and behavior research spans nervous systems, perception, attention, learning, arousal, sleep and waking, and difficult questions about awareness and consciousness.",
+      "topics": ["Brain and nervous-system systems", "Sensation and perception", "Attention, arousal and sleep/wake states", "Neuroplasticity and consciousness"],
+      "offer": "Use the concept and evidence maps to separate a useful model, metaphor, or hypothesis from a measured result. The app has no brain scan, biomarker, or direct measure of consciousness.",
+      "starter": {
+        "title": "Ask what would count as evidence",
+        "timeHint": "A short science-literacy exercise",
+        "steps": [
+          "Choose a question about brain, perception, or awareness that interests you.",
+          "Write or think of one observation that might support the idea and one that might challenge it.",
+          "Look for a source's actual method and outcome; separate that measurement from a broader interpretation or metaphor."
+        ]
+      },
+      "apply": "Follow one concept into the existing Explore and Evidence pages. If a brain-related question is about your own symptoms or health, ask a qualified clinician rather than using an educational activity.",
+      "notice": "Notice how the source measured the idea and which uncertainties remain. Unanswered questions are a normal part of science.",
+      "boundary": "Reading or doing a puzzle does not directly train consciousness, reveal a hidden mental state, or measure brain health. Simplified explanations are models, not anatomical maps or diagnoses.",
+      "evidenceNote": "The National Academies source establishes the breadth of learning research fields and contexts, not a claim about any specific neuroscience intervention.",
+      "links": [
+        {"label": "Explore the current concept map", "href": "/explore"},
+        {"label": "Inspect evidence and limitations", "href": "/evidence"}
+      ],
+      "referenceIds": ["ref-nasem-learning-2018"]
+    },
+    {
+      "id": "lifespan-differences-aging",
+      "clusterId": "life-context",
+      "title": "Lifespan, individual differences & healthy aging",
+      "type": "learn-reflect",
+      "typeLabel": "Explore development in context",
+      "summary": "Human development is shaped by age, learning history, identity, health, relationships, culture, disability, opportunity, and environment. People do not all follow one path or timeline.",
+      "topics": ["Development from childhood through later life", "Neurodiversity and learning differences", "Identity, culture and environment", "Cognitive aging and healthy development"],
+      "offer": "Explore life-stage questions using sources that name their population and setting. Adapt any activity to pace, sensory access, language, mobility, and individual preference.",
+      "starter": {
+        "title": "Place a finding in context",
+        "timeHint": "No age-based score or test",
+        "steps": [
+          "Choose a development or aging question relevant to you, a learner, or a community you are curious about.",
+          "When reading a finding, check who was studied, what was measured, and the place or conditions where it was studied.",
+          "Name one way individual circumstances or social context might differ; do not assume a group average predicts one person."
+        ]
+      },
+      "apply": "The NASEM report is a broad learning resource; the NIA page is a U.S.-focused resource for older-adult cognitive health. For changes that are sudden, persistent, or affecting daily life, seek a qualified local professional.",
+      "notice": "Notice which details about age, access, culture, language, disability, and context are present or missing in a source.",
+      "boundary": "This is not a developmental screen, dementia test, personality profile, or forecast. Aging and development vary; an atlas activity cannot determine whether a change is typical or medical.",
+      "evidenceNote": "The linked sources provide contextual background, not a universal developmental timetable or a validated program for every population.",
+      "links": [
+        {"label": "Read How People Learn II", "href": "https://doi.org/10.17226/24783"},
+        {"label": "Read NIA's cognitive-health overview for older adults", "href": "https://www.nia.nih.gov/health/brain-health/cognitive-health-and-older-adults"},
+        {"label": "Explore the existing learning map", "href": "/explore"}
+      ],
+      "referenceIds": ["ref-nasem-learning-2018", "ref-nia-cognitive-health"]
+    }
+  ]
+}

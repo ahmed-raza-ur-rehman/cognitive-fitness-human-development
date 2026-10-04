@@ -1,0 +1,460 @@
+{
+  "schemaVersion": "1.0.0",
+  "contentVersion": "1.0.0",
+  "reviewedAt": "2026-10-04",
+  "purpose": "One registry that says what each page is for, who it serves, and where it leads. Navigation, search, journeys, and the content validator all read this file, so a page cannot exist here without a stated reason and a route that renders.",
+  "routes": [
+    {
+      "id": "home",
+      "path": "/",
+      "label": "Home",
+      "kind": "orientation",
+      "purpose": "Explain the space in one screen and let a visitor choose a direction without setup.",
+      "audience": "first-time visitors",
+      "primaryAction": {
+        "label": "Start a guided path",
+        "href": "/journeys"
+      },
+      "leadsTo": [
+        "/journeys",
+        "/explore",
+        "/search",
+        "/privacy"
+      ]
+    },
+    {
+      "id": "journeys",
+      "path": "/journeys",
+      "label": "Guided paths",
+      "kind": "learn",
+      "purpose": "Turn one question into a short, ordered route through explanation, experience, evidence, and practice.",
+      "audience": "anyone unsure where to begin",
+      "primaryAction": {
+        "label": "Open the memory path",
+        "href": "/journeys/memory-first"
+      },
+      "leadsTo": [
+        "/journeys/memory-first",
+        "/explore",
+        "/train"
+      ]
+    },
+    {
+      "id": "journey-sleep-as-context",
+      "path": "/journeys/sleep-as-context",
+      "label": "Sleep as context path",
+      "kind": "learn",
+      "purpose": "Presents sleep as interacting context with a local-only window sketch and explicit care boundaries.",
+      "audience": "anyone following this path",
+      "anchors": [
+        "step-sleep.explain",
+        "step-sleep.sketch",
+        "step-sleep.evidence",
+        "step-sleep.apply"
+      ],
+      "primaryAction": {
+        "label": "Open the first step",
+        "href": "/journeys/sleep-as-context"
+      },
+      "leadsTo": [
+        "/explore/sleep",
+        "/journeys",
+        "/explore"
+      ]
+    },
+    {
+      "id": "journey-think-twice",
+      "path": "/journeys/think-twice",
+      "label": "Careful reasoning path",
+      "kind": "learn",
+      "purpose": "Practises inference from stated premises and keeps confidence separate from accuracy.",
+      "audience": "anyone following this path",
+      "anchors": [
+        "step-reason.practice",
+        "step-reason.pattern",
+        "step-reason.boundary",
+        "step-reason.meta"
+      ],
+      "primaryAction": {
+        "label": "Open the first step",
+        "href": "/journeys/think-twice"
+      },
+      "leadsTo": [
+        "/train#activities",
+        "/journeys",
+        "/explore"
+      ]
+    },
+    {
+      "id": "journey-study-that-sticks",
+      "path": "/journeys/study-that-sticks",
+      "label": "Study techniques path",
+      "kind": "learn",
+      "purpose": "Connects retrieval practice and delay to one demonstration and to material you actually need to learn.",
+      "audience": "anyone following this path",
+      "anchors": [
+        "step-study.technique",
+        "step-study.try",
+        "step-study.learning",
+        "step-study.evidence",
+        "step-study.apply"
+      ],
+      "primaryAction": {
+        "label": "Open the first step",
+        "href": "/journeys/study-that-sticks"
+      },
+      "leadsTo": [
+        "/explore/retrieval-practice",
+        "/journeys",
+        "/explore"
+      ]
+    },
+    {
+      "id": "journey-focus-under-pressure",
+      "path": "/journeys/focus-under-pressure",
+      "label": "Focus path",
+      "kind": "learn",
+      "purpose": "Describes focus as a task-level behaviour, then bounds what a single counting round can support.",
+      "audience": "anyone following this path",
+      "anchors": [
+        "step-focus.explain",
+        "step-focus.try",
+        "step-focus.evidence",
+        "step-focus.apply",
+        "step-focus.reflect"
+      ],
+      "primaryAction": {
+        "label": "Open the first step",
+        "href": "/journeys/focus-under-pressure"
+      },
+      "leadsTo": [
+        "/explore/attention",
+        "/journeys",
+        "/explore"
+      ]
+    },
+    {
+      "id": "journey-memory-first",
+      "path": "/journeys/memory-first",
+      "label": "Memory and forgetting path",
+      "kind": "learn",
+      "purpose": "Pairs a memory explanation with one recall round, its evidence context, and an optional real-world study step.",
+      "audience": "anyone following this path",
+      "anchors": [
+        "step-memory-first.explain",
+        "step-memory-first.try",
+        "step-memory-first.compare",
+        "step-memory-first.evidence",
+        "step-memory-first.practise",
+        "step-memory-first.apply"
+      ],
+      "primaryAction": {
+        "label": "Open the first step",
+        "href": "/journeys/memory-first"
+      },
+      "leadsTo": [
+        "/explore/memory",
+        "/journeys",
+        "/explore"
+      ]
+    },
+    {
+      "id": "journey-start-here",
+      "path": "/journeys/start-here",
+      "label": "First visit orientation",
+      "kind": "learn",
+      "purpose": "Shows the three moves this space is built around and ends with a deliberate choice about what to do next.",
+      "audience": "anyone following this path",
+      "anchors": [
+        "step-start-here.map",
+        "step-start-here.try",
+        "step-start-here.limits",
+        "step-start-here.control",
+        "step-start-here.next"
+      ],
+      "primaryAction": {
+        "label": "Open the first step",
+        "href": "/journeys/start-here"
+      },
+      "leadsTo": [
+        "/explore",
+        "/journeys",
+        "/explore"
+      ]
+    },
+    {
+      "id": "explore",
+      "path": "/explore",
+      "label": "Explore",
+      "kind": "learn",
+      "purpose": "Read a reviewed explanation of one concept and follow its labeled relationships.",
+      "audience": "curious beginners and students",
+      "primaryAction": {
+        "label": "Open the memory pathway",
+        "href": "/explore/memory"
+      },
+      "leadsTo": [
+        "/evidence",
+        "/develop",
+        "/lab"
+      ]
+    },
+    {
+      "id": "concept-memory",
+      "path": "/explore/memory",
+      "label": "Memory pathway",
+      "kind": "concept",
+      "purpose": "Hold one idea at a time: what memory means here, what a short task shows, and what evidence says.",
+      "audience": "beginners and students",
+      "primaryAction": {
+        "label": "Try the recall demonstration",
+        "href": "/lab"
+      },
+      "leadsTo": [
+        "/lab",
+        "/evidence#retrieval-evidence",
+        "/journeys/memory-first"
+      ]
+    },
+    {
+      "id": "concept-working-memory",
+      "path": "/explore/working-memory",
+      "label": "Working memory",
+      "kind": "concept",
+      "purpose": "Distinguish holding a few thoughts in one task from a general capacity claim.",
+      "audience": "beginners and students",
+      "primaryAction": {
+        "label": "Browse task practice",
+        "href": "/train#activities"
+      },
+      "leadsTo": [
+        "/train#activities",
+        "/evidence#working-memory-evidence",
+        "/develop#pathway-attention-executive"
+      ]
+    },
+    {
+      "id": "concept-attention",
+      "path": "/explore/attention",
+      "label": "Attention",
+      "kind": "concept",
+      "purpose": "Show how focus, task context, and a single counting task relate without turning the task into a diagnosis.",
+      "audience": "beginners and students",
+      "primaryAction": {
+        "label": "Try Target Finder",
+        "href": "/train"
+      },
+      "leadsTo": [
+        "/train",
+        "/evidence#attention-evidence",
+        "/develop#pathway-attention-executive"
+      ]
+    },
+    {
+      "id": "concept-retrieval-practice",
+      "path": "/explore/retrieval-practice",
+      "label": "Retrieval practice",
+      "kind": "concept",
+      "purpose": "Explain what bringing information to mind does in studied learning conditions.",
+      "audience": "learners and students",
+      "primaryAction": {
+        "label": "Try one recall round",
+        "href": "/lab"
+      },
+      "leadsTo": [
+        "/lab",
+        "/evidence#retrieval-evidence",
+        "/journeys/study-that-sticks"
+      ]
+    },
+    {
+      "id": "concept-learning",
+      "path": "/explore/learning",
+      "label": "Learning",
+      "kind": "concept",
+      "purpose": "Separate a one-round demonstration from durable learning measured by delayed tests.",
+      "audience": "learners and students",
+      "primaryAction": {
+        "label": "Read the evidence context",
+        "href": "/evidence#retrieval-evidence"
+      },
+      "leadsTo": [
+        "/evidence#retrieval-evidence",
+        "/journeys/study-that-sticks",
+        "/develop#pathway-memory-learning"
+      ]
+    },
+    {
+      "id": "concept-sleep",
+      "path": "/explore/sleep",
+      "label": "Sleep and recovery",
+      "kind": "concept",
+      "purpose": "Present sleep as context for cognition, with a local-only window sketch and clear care boundaries.",
+      "audience": "anyone exploring recovery",
+      "primaryAction": {
+        "label": "Inspect the evidence context",
+        "href": "/evidence#retrieval-evidence"
+      },
+      "leadsTo": [
+        "/develop#pathway-sleep-recovery",
+        "/evidence",
+        "/privacy"
+      ]
+    },
+    {
+      "id": "lab",
+      "path": "/lab",
+      "label": "Lab",
+      "kind": "experiment",
+      "purpose": "Let someone experience one controlled task and read exactly what its result can and cannot describe.",
+      "audience": "anyone willing to try a short task",
+      "primaryAction": {
+        "label": "Read what research says",
+        "href": "/evidence#retrieval-evidence"
+      },
+      "leadsTo": [
+        "/evidence#retrieval-evidence",
+        "/explore/memory",
+        "/train"
+      ]
+    },
+    {
+      "id": "train",
+      "path": "/train",
+      "label": "Train",
+      "kind": "practice",
+      "purpose": "Offer untimed, deterministic practice with visible rules, scoring, and limits, plus optional goals.",
+      "audience": "people who want to practise a defined task",
+      "anchors": [
+        "activities",
+        "active-training"
+      ],
+      "primaryAction": {
+        "label": "Choose an activity",
+        "href": "/train#activities"
+      },
+      "leadsTo": [
+        "/progress",
+        "/evidence#activity-boundary",
+        "/develop"
+      ]
+    },
+    {
+      "id": "progress",
+      "path": "/progress",
+      "label": "My practice",
+      "kind": "reflect",
+      "purpose": "Describe saved local practice as task-level counts and ranges, never as a combined ability score.",
+      "audience": "people with saved sessions on this device",
+      "primaryAction": {
+        "label": "Return to practice",
+        "href": "/train#active-training"
+      },
+      "leadsTo": [
+        "/train#active-training",
+        "/evidence#activity-boundary",
+        "/privacy"
+      ]
+    },
+    {
+      "id": "develop",
+      "path": "/develop",
+      "label": "Develop",
+      "kind": "atlas",
+      "purpose": "Map whole-person development areas and say plainly which ones can be practised on a task and which are context, support, or reflection.",
+      "audience": "people looking beyond single abilities",
+      "anchors": [
+        "practice-menu",
+        "pathways",
+        "think-learn",
+        "feel-connect",
+        "body-foundations",
+        "life-context"
+      ],
+      "primaryAction": {
+        "label": "Browse the pathways",
+        "href": "/develop#pathways"
+      },
+      "leadsTo": [
+        "/journeys",
+        "/train",
+        "/evidence",
+        "/search"
+      ]
+    },
+    {
+      "id": "evidence",
+      "path": "/evidence",
+      "label": "Evidence",
+      "kind": "research",
+      "purpose": "Show claim, source, population, design, and limitation together so a result is not overread.",
+      "audience": "serious learners and skeptics",
+      "anchors": [
+        "working-memory-evidence",
+        "attention-evidence",
+        "retrieval-evidence",
+        "activity-boundary"
+      ],
+      "primaryAction": {
+        "label": "Read the retrieval evidence",
+        "href": "/evidence#retrieval-evidence"
+      },
+      "leadsTo": [
+        "/explore",
+        "/lab",
+        "/develop"
+      ]
+    },
+    {
+      "id": "coach",
+      "path": "/coach",
+      "label": "Guide",
+      "kind": "coach",
+      "purpose": "Give an optional, tool-first guide that opens reviewed product items and never decides scores.",
+      "audience": "adults who want an optional explainer",
+      "primaryAction": {
+        "label": "Open a reviewed concept",
+        "href": "/explore"
+      },
+      "leadsTo": [
+        "/privacy",
+        "/explore",
+        "/train"
+      ]
+    },
+    {
+      "id": "privacy",
+      "path": "/privacy",
+      "label": "Data and privacy",
+      "kind": "trust",
+      "purpose": "State what is stored, where it stays, what any AI receives, and how to remove it.",
+      "audience": "everyone",
+      "primaryAction": {
+        "label": "Return to practice controls",
+        "href": "/train"
+      },
+      "leadsTo": [
+        "/train",
+        "/coach",
+        "/progress"
+      ]
+    },
+    {
+      "id": "search",
+      "path": "/search",
+      "label": "Search",
+      "kind": "navigation",
+      "purpose": "Find a concept, pathway, activity, journey, or evidence item by word instead of by memory of the layout.",
+      "audience": "everyone",
+      "primaryAction": {
+        "label": "Choose a guided path",
+        "href": "/journeys"
+      },
+      "leadsTo": [
+        "/journeys",
+        "/explore",
+        "/evidence"
+      ]
+    }
+  ]
+}
